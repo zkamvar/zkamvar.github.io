@@ -22,17 +22,6 @@ CRAN you dig it? Thanks to the fantastic cranlogs package, assessing the downloa
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Note: this is currently under construction
- Science I am currently a post-doctoral researcher in the lab of Sydney E. Everhart at the Department of Plant Pathology at University of Nebraska, Lincoln. My work focuses on using reproducible methods to understand the population genetics of clonal organisms.
-My Ph. D. is from the Department of Botany and Plant Pathology at Oregon State University. My dissertation focuses on my development of computational tools for analyzing clonal populations in the R package poppr.</description>
-    </item>
-    
-    <item>
       <title>Recreating Figure 3</title>
       <link>/2016/02/10/recreating-figure-3/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
@@ -40,6 +29,16 @@ My Ph. D. is from the Department of Botany and Plant Pathology at Oregon State U
       <guid>/2016/02/10/recreating-figure-3/</guid>
       <description>Motivation In February of 2016, I got an email asking if I could provide the code to recreate figure three from my article in Phytopathology on the outbreak of Phytophthora ramorum in Curry County OR from 2001 to 2014 (paywalled, but you can find a copy here).
 While I have the code used for the analysis on github, it’s a lot of stuff to sort through, considering that it was my first foray in attempting a reproducible analysis, so for this post, I’m going to recreate it using current tools.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am a computational biologist currently working a post-doctoral researcher in the lab of Dr. Sydney E. Everhart at the Department of Plant Pathology at University of Nebraska-Lincoln. My research focus seeks to understand the mechanisms that drive the evolution of clonal plant pathogens.
+I grew up in Cupertino, CA, but got my undergraduate degree in Biology at Truman State University in Kirksville, MO where I had a research opportunity to work on understanding the regulation of shoot apical meristem development in maize.</description>
     </item>
     
   </channel>
