@@ -28,10 +28,6 @@
   </url>
   
   <url>
-    <loc>/contact/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/cran/</loc>
     <lastmod>2016-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -47,10 +43,6 @@
     <loc>/categories/example/</loc>
     <lastmod>2016-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/faq/</loc>
   </url>
   
   <url>
