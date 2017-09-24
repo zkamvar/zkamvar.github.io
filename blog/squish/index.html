@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Squishing a big bad bug</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="r">
+  
+
+  
+  <meta name="description" content="Zhian N. Kamvar">
+  
+
+  <meta name="generator" content="Hugo 0.27.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="/lib/gallery/css/blueimp-gallery.min.css">
+
+  
+  <link href="/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="/css/style.violet.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+  
+  <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css">
+  <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+  <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+  
+
+
+  
+  <link href="/css/custom.css" rel="stylesheet">
+
+  
+    
+
+  
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+  
+
+  <link href="/css/owl.carousel.css" rel="stylesheet">
+  <link href="/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Zhian N. Kamvar">
+
+  
+  <meta property="og:title" content="Squishing a big bad bug" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/blog/squish//" />
+  <meta property="og:image" content="img/logo.png" />
+  <script src="https://hypothes.is/embed.js" async></script>
+  
+  
+
+
+
+
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    <img src="/img/logo.png" alt="Squishing a big bad bug logo" class="hidden-xs hidden-sm">
+                    <img src="/img/logo-small.png" alt="Squishing a big bad bug logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Squishing a big bad bug - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about">About</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-10" id="blog-post">
+
+                        <h2>Squishing a big bad bug</h2>
+
+                        <span class="article-duration">9 min read</span>
+                        
+                        <div class="article-date">
+  <span>
+   Zhian N. Kamvar - 
+
+  2017-09-17
+  </span>
+
+  <span class="article-toolbar">
+    
+    <a href="/blog/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
+    
+
+    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i></a>
+
+    <a href="https://twitter.com/home?status=Squishing&#43;a&#43;big&#43;bad&#43;bug&#43;%2Fblog%2Fsquish%2F&#43;via&#43;%40zkamvar" target="_blank">
+      <i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i>
+    </a>
+
+    
+    
+    <a href="https://github.com/zkamvar/blog-source/edit/master/content/blog/2017-09-23-squish.Rmd"><i class="fa fa-pencil-square-o" aria-hidden="true" ></i></a>
+    
+
+  </span>
+
+</div>
+
+
+                        
+
+
+<p class="meta-tags">
+
+  
+  <a href="/tags/poppr" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> poppr</a>
+  
+  <a href="/tags/bruvo" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> bruvo</a>
+  
+  <a href="/tags/algorithms" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> algorithms</a>
+  
+
+</p>
+
+
+
+
+                        <div id="post-content">
+                          <p>As I was preparing to push a <a href="https://github.com/grunwaldlab/poppr/releases/tag/v.2.5.0">new version of <em>poppr</em></a> to CRAN , this tweet (appropriately) came across my feed:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Mistakes happen in science. What matters is what you do next. Anyone want to share a story of a mistake &amp; how they handled it?</p>&mdash; Adrienne Porter Felt (@__apf__) <a href="https://twitter.com/__apf__/status/906959242724179968">September 10, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>The reason I was updating <em>poppr</em> was to fix a mistake I had made a few years ago. In the realm of scientific mistakes on a scale of <a href="https://twitter.com/jrossibarra/status/857259389744316416/">hapliod</a> to <a href="http://www.slate.com/articles/health_and_science/science/2010/12/this_paper_should_not_have_been_published.html">arsenic</a>, I would say this probably falls somewhere on the lower end, but still significant enough that I felt I should blog about it ¯\_(ツ)_/¯.</p>
+<div id="my-mistake" class="section level2">
+<h2>My Mistake</h2>
+<p>Mistakes in scientific software happen all the time, <a href="http://ivory.idyll.org/blog/automated-testing-and-research-software.html">which is why we have automated testing</a>. Usually, these kind of bugs are things like <a href="https://github.com/grunwaldlab/poppr/issues/5">simple logical errors</a> that can easily be fixed by changing a single character. Unfortunately, the <a href="https://github.com/grunwaldlab/poppr/issues/139">issue I was fixing</a> was not so easily fixed. In short, in my assumptions about how to calculate <a href="https://www.ncbi.nlm.nih.gov/pubmed/15189230">Bruvo’s genetic distance</a> for polyploid genotypes with multiple ambiguous alleles was incorrect (a detailed explanation of how Bruvo’s distance works can be found below for those interested). Without going into too much detail, at the heart of the error, I had fallen for a common statistical misconception of independent probabilities. Consider the following question:</p>
+<blockquote>
+<p><strong>If you have two fair coins and flip both of them, what is the most likely scenario?</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li>both are heads (🐦 , 🐦 )</li>
+<li>both are tails (🦅 , 🦅 )</li>
+<li>one heads and one tails (🐦 , 🦅 )</li>
+<li>all are equally likely (🐦 , 🐦 ) == (🐦 , 🦅 ) == (🦅 , 🦅 )</li>
+</ol>
+</blockquote>
+<p>When I first saw this question, my immediate answer was <strong>d</strong>, but if I had paid attention in statistics class, or even remembered what the <a href="https://cs.stanford.edu/people/nick/settlers/DiceOddsSettlers.html">dots on my Settlers of Catan board</a> meant, I would have answered <strong>c</strong>.</p>
+<p>Embarassingly, I had assumed that the possible outcomes were unordered (the number of which is dictated by the <a href="https://en.wikipedia.org/wiki/Multiset#Counting_multisets">multiset coefficient</a>),</p>
+<table>
+<thead>
+<tr class="header">
+<th>outcome</th>
+<th align="right">probability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(🐦 , 🐦 )</td>
+<td align="right"><em>p</em></td>
+</tr>
+<tr class="even">
+<td>(🐦 , 🦅 )</td>
+<td align="right"><em>pq</em></td>
+</tr>
+<tr class="odd">
+<td>(🦅 , 🦅 )</td>
+<td align="right"><em>q</em></td>
+</tr>
+</tbody>
+</table>
+<p>as opposed to ordered (of which there is an exponential number of possible outcomes).</p>
+<table>
+<thead>
+<tr class="header">
+<th>outcome</th>
+<th align="right">probability</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(🐦 , 🐦 )</td>
+<td align="right"><em>p</em></td>
+</tr>
+<tr class="even">
+<td>(🐦 , 🦅 )</td>
+<td align="right">2<em>pq</em></td>
+</tr>
+<tr class="odd">
+<td>(🦅 , 🦅 )</td>
+<td align="right"><em>q</em></td>
+</tr>
+</tbody>
+</table>
+<p>Of course, both (🐦 , 🦅 ) and (🦅 , 🐦 ) can occur with equal frequency. You can see this with a little simulation:</p>
+<pre class="r"><code># Function to flip a coin N times
+flip   &lt;- function(n) sample(c(1, 0), n, replace = TRUE)
+# Flipping two coins 1000 times each
+n      &lt;- 1000
+set.seed(2017-09-23)
+trials &lt;- replicate(2, flip(n))
+colnames(trials) &lt;- c(&quot;coin 1&quot;, &quot;coin 2&quot;)
+rownames(trials) &lt;- paste(&quot;trial&quot;, seq(n))
+head(trials)</code></pre>
+<pre><code>##         coin 1 coin 2
+## trial 1      0      1
+## trial 2      1      0
+## trial 3      1      0
+## trial 4      1      1
+## trial 5      1      1
+## trial 6      1      0</code></pre>
+<pre class="r"><code>res        &lt;- table(rowSums(trials))
+names(res) &lt;- c(&quot;TT&quot;, &quot;HT&quot;, &quot;HH&quot;)
+barplot(res, col = &quot;violet&quot;)</code></pre>
+<p><img src="/blog/2017-09-23-squish_files/figure-html/coins-1.png" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="the-problem" class="section level2">
+<h2>The Problem</h2>
+<p>The process to calculate Bruvo’s distance for polyploids with multiple ambiguous alleles involved taking the average value of the distance over all possible genotypes. The problem with my assumption of all possible unordered genotypes was that this fundamentally changed the structure of how I iterated through the possibilities, which meant that I would either have to completely re-write the machinery 😭 or find a clever way around it. 🤔</p>
+<p>I chose the latter path 😤</p>
+</div>
+<div id="the-solution" class="section level2">
+<h2>The Solution</h2>
+<p>It turns out that you can calculate the number of possible combinations of a given set of items using the <a href="https://en.wikipedia.org/wiki/Multinomial_theorem#Number_of_unique_permutations_of_words">multinomial coefficient</a>:</p>
+<p><span class="math display">\[
+\frac{n!}{k_1!k_2!...k_m!}
+\]</span></p>
+<p>where <em>n</em> is the number of items in your set and each <em>k</em> represents the number of each unique item. Since Bruvo’s distance doesn’t take order into account when it calculates the distance, it was possible to multiply the distance at a particular allele combination with the multinomial coefficient and use the sum of the multinomial coefficients as the denominator to get the average distance<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. In terms of the coin flips above, we can see how it would work:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Replaced alleles</th>
+<th align="right">distance</th>
+<th align="right">coefficient</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(🐦 , 🐦 )</td>
+<td align="right"><em>p</em></td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td>(🐦 , 🦅 )</td>
+<td align="right"><em>pq</em></td>
+<td align="right">2</td>
+</tr>
+<tr class="odd">
+<td>(🦅 , 🦅 )</td>
+<td align="right"><em>q</em></td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<p>The mean without the coefficient would be (<em>p</em>*<em>pq</em>*<em>q</em>/3) whereas the mean with the coefficient would be (<em>p</em>*2<em>pq</em>*<em>q</em>/4).</p>
+<div id="implementation" class="section level3">
+<h3>Implementation</h3>
+<p>Because I didn’t have to substantially change the architecture of the calculation, I was able to give <em>poppr</em> users the ability to compare their data by adding a switch in the internal functions that would turn the coefficient calculation off if desired. This switch is controlled by the global option: <code>options(old.bruvo.model = FALSE)</code>. If it’s set to <code>TRUE</code>, calculation of Bruvo’s distance will revert to the old method of unordered alleles. By doing this, I was able to avoid adding extra potentially confusing arguments to the functions that use Bruvo’s distance while still providing backwards compatibility. 👍</p>
+</div>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<p>Mistakes in scientific software are commonplace. The very <a href="https://github.com/grunwaldlab/poppr/issues/1">first bug discovered in poppr</a> was discovered in 2014, there have been many more since, and there will be more as time goes on. When I find a mistake in <em>poppr</em>, I do what I would hope any other developer would do: I fix the mistake 🐛🔨, make a note that I fixed it 📝, and write a test to make sure the mistake never happens again 💻 ✅. If I make a mistake, I own it. There is no valor in covering it up, making excuses for it, or even fixing it and pretending it never happened.</p>
+<p>Unfortunately, in this case, it took me several months from finding the bug to actually fixing it. This is due, in part, to the fact that I’m now only working on <em>poppr</em> in my spare time. It was also in part for the fact that it took me so long to even figure out the right terms to google for the multinomial coefficient. In terms of actual coding, I spent a weekend re-learning C and getting everything implemented.</p>
+<p>At the end of the day, I figure that if I am open and transparent about how I fix bugs in <em>poppr</em>, then my users will hopefully have trust in me and also be comfortable in brining up any unexpected results they find.</p>
+<hr />
+</div>
+<div id="calculation-of-bruvos-distance" class="section level2">
+<h2>Calculation of Bruvo’s distance</h2>
+<p>Bruvo’s distance is used for microsatellite markers assuming a stepwise mutation model. Between any two alleles the distance, <span class="math inline">\(d\)</span>, is</p>
+<p><span class="math display">\[
+d = 1 - 2^{-|x|}
+\]</span></p>
+<p>where <span class="math inline">\(x\)</span> is the number of repeat units between the alleles. For example, if you have two alleles, 420 and 428 with a repeat motif of ACAT, then they would represent (ACAT)<span class="math inline">\(_{105}\)</span> and (ACAT)<span class="math inline">\(_{107}\)</span>, respectively, which would result in a distance of 0.75.</p>
+<p>This gets more complicated when you increase the ploidy, because then you must find the minimum average distance among all the alleles. In practice, this involves creating a matrix of Bruvo’s distance for all alleles. So, for example, if you had the following alleles in two tetraploid samples:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">genotype 1:</td>
+<td align="right">20</td>
+<td align="right">23</td>
+<td align="right">24</td>
+<td align="right">30</td>
+</tr>
+<tr class="even">
+<td align="left">genotype 2:</td>
+<td align="right">20</td>
+<td align="right">24</td>
+<td align="right">26</td>
+<td align="right">43</td>
+</tr>
+</tbody>
+</table>
+<p>The resulting genotype matrix would look like this:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center">20</th>
+<th align="center">23</th>
+<th align="center">24</th>
+<th align="center">30</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>20</td>
+<td align="center">0.0000</td>
+<td align="center">0.875</td>
+<td align="center">0.9375</td>
+<td align="center">0.9990</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td align="center">0.9375</td>
+<td align="center">0.500</td>
+<td align="center">0.0000</td>
+<td align="center">0.9844</td>
+</tr>
+<tr class="odd">
+<td>26</td>
+<td align="center">0.9844</td>
+<td align="center">0.875</td>
+<td align="center">0.7500</td>
+<td align="center">0.9375</td>
+</tr>
+<tr class="even">
+<td>43</td>
+<td align="center">1.0000</td>
+<td align="center">1.000</td>
+<td align="center">1.0000</td>
+<td align="center">0.9999</td>
+</tr>
+</tbody>
+</table>
+<p>If you take the average of the diagonal, you end up with 0.5625. However, if we switch columns 2 and 3 in the above matrix, we find that the average is 0.4687. If we were to try all possible combinations of rearranging these columns and calculating the mean of the diagonal, we find that this is the minimum value. Because of this, <strong>order of alleles does not matter when calculating Bruvo’s distance.</strong> This fact becomes important in just a little bit.</p>
+<div id="polyploid-problem-partial-heterozygotes" class="section level3">
+<h3>Polyploid problem: partial heterozygotes</h3>
+<p>Of course, this is assuming that all alleles are known, but the problem with polyploids is that it is often difficult to accurately score genotypes that are only partially heterozygotic, so Bruvo came up with a solution where all possible combinations of the observed alleles are used to fill the missing genotypes as demonstrated in figure 1 of the publication:</p>
+<div class="figure">
+<img src="../../img/bruvofig.png" alt="Figure 1 from Bruvo et al. 2004" style="width:100.0%" />
+<p class="caption">Figure 1 from Bruvo et al. 2004</p>
+</div>
+<p>This figure is a bit confusing to look at, but what it’s demonstrating is that if you weren’t able to score that “30” allele, you would be comparing three alleles against four. To compensate, you could do one of four things:</p>
+<ol style="list-style-type: decimal">
+<li>Replace the allele with the three known alleles in that genotype (b)</li>
+<li>Replace the allele with the four known alleles of the other genotype (c)</li>
+<li>Replace the allele with infinity (d)</li>
+<li>Do 1 and 2 and average the results.</li>
+</ol>
+<p>In calculating 1, 2, and 4, you must consider all possible combinations to fill the missing allele. Luckily, when you only have one allele missing, all possible combinations amounts to the number of alleles observed. However, when you have more than one ambiguous allelic state, the question becomes, do you consider all possible ordered combinations of alleles, of which there are <em>n</em><sup><em>k</em></sup> where <em>n</em> is the number of observed alleles and <em>k</em>, the number of ambiguous alleles or all possible unordered combinations, of which there are <span class="math inline">\({n+k-1}\choose{k}\)</span> combinations.</p>
+<p>For example, if you were comparing two genotypes:</p>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">genotype 1:</td>
+<td align="right">🤷</td>
+<td align="right">🤷</td>
+<td align="right">23</td>
+<td align="right">24</td>
+</tr>
+<tr class="even">
+<td align="left">genotype 2:</td>
+<td align="right">20</td>
+<td align="right">24</td>
+<td align="right">26</td>
+<td align="right">43</td>
+</tr>
+</tbody>
+</table>
+<p>you would need some way to replace the two ambiguous alleles (🤷🏻‍♀️) from genotype 1. If we assume that the extra alleles in genotype 2 are due to a recent genome expansion event (genome addition model), we would replace the ambiguous alleles with the observed alleles in genotype 1. Here are all the unordered combinations:</p>
+<table>
+<caption><span id="tab:unnamed-chunk-6">Table 1: </span>Distance: 0.6875</caption>
+<tbody>
+<tr class="odd">
+<td align="left">genotype 1:</td>
+<td align="right">23</td>
+<td align="right">23</td>
+<td align="right">23</td>
+<td align="right">24</td>
+</tr>
+<tr class="even">
+<td align="left">genotype 2:</td>
+<td align="right">20</td>
+<td align="right">24</td>
+<td align="right">26</td>
+<td align="right">43</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption><span id="tab:unnamed-chunk-6">Table 1: </span>Distance: 0.6562</caption>
+<tbody>
+<tr class="odd">
+<td align="left">genotype 1:</td>
+<td align="right">23</td>
+<td align="right">24</td>
+<td align="right">23</td>
+<td align="right">24</td>
+</tr>
+<tr class="even">
+<td align="left">genotype 2:</td>
+<td align="right">20</td>
+<td align="right">24</td>
+<td align="right">26</td>
+<td align="right">43</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption><span id="tab:unnamed-chunk-6">Table 1: </span>Distance: 0.6562</caption>
+<tbody>
+<tr class="odd">
+<td align="left">genotype 1:</td>
+<td align="right">24</td>
+<td align="right">24</td>
+<td align="right">23</td>
+<td align="right">24</td>
+</tr>
+<tr class="even">
+<td align="left">genotype 2:</td>
+<td align="right">20</td>
+<td align="right">24</td>
+<td align="right">26</td>
+<td align="right">43</td>
+</tr>
+</tbody>
+</table>
+<p>If we take the average of the three, we get a Bruvo’s distance of 0.6667, but if we remember that there are two ordered combinations for the center genotype, we average over four distances to get 0.6641.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>For those who like details, here’s the calculation of the <a href="https://github.com/zkamvar/poppr/blob/e724d753dec80355bdf3af0ea78e4e4c37682c3d/src/poppr_distance.c#L795-L842">multinomial coefficient</a> and here’s how <a href="https://github.com/zkamvar/poppr/blob/e724d753dec80355bdf3af0ea78e4e4c37682c3d/src/poppr_distance.c#L941-L944">it was implemented in the genome addition model</a>.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+
+                        </div>
+                        
+
+                        
+
+
+                        
+<nav id="article-nav">
+  
+    <a href="/blog/20-000-downloads-under-the-c-ran/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> 20,000 downloads under the C(RAN)</div>
+    </a>
+    
+
+    
+
+</nav>
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About me</h4>
+
+            I am a population geneticist, data scientist, plant pathologist, and R package developer working at the University of Nebraska-Lincoln.
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/squish/">
+                          
+                            <img src="/img/banners/mistake.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/squish/">Squishing a big bad bug</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/20-000-downloads-under-the-c-ran/">
+                          
+                            <img src="/img/placeholder.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/20-000-downloads-under-the-c-ran/">20,000 downloads under the C(RAN)</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/recreating-figure-3/">
+                          
+                            <img src="/img/banners/fig3.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/recreating-figure-3/">Recreating Figure 3</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            
+            <div class="social-entries">
+
+              <div class="social-entry">
+                <a href="https://twitter.com/zkamvar"><i class="fa fa-twitter fa-fw"></i>@zkamvar</a>
+              </div>
+              <div class="social-entry">
+                <a href="https://github.com/zkamvar"><i class="fa fa-github fa-fw"></i>zkamvar</a>
+              </div>
+
+              <div class="social-entry">
+                <a href="https://stackoverflow.com/users/2752888/znk"><i class="fa fa-stack-overflow fa-fw"></i>2752888/znk</a>
+              </div>
+              <div class="social-entry">
+                <a href="https://www.researchgate.net/profile/Zhian_Kamvar"><i class="fa fa-pencil fa-fw"></i>Zhian_Kamvar</a>
+              </div>
+
+              <div class="social-entry">
+                <i class="fa fa-envelope fa-fw"></i>&nbsp;zkamvar@gmail.com
+              </div>
+              <div class="social-entry">
+                <i class="fa fa-mobile fa-fw"></i>&nbsp;&#43;1 (541) 286-0187
+              </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+</footer>
+
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+
+
+
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-right">
+              Built with <a href="https://github.com/rstudio/blogdown">blogdown</a>
+              and <a href="https://gohugo.io">hugo</a>. 
+
+              <br/>
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-60561808-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<script src="/js/hpneo.gmaps.js"></script>
+<script src="/js/gmaps.init.js"></script>
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+    
+
+  </body>
+</html>
