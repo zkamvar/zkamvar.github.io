@@ -6,10 +6,21 @@
     <description>Recent content on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scholarly Publications</title>
+      <link>/pubs/</link>
+      <pubDate>Sun, 24 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/pubs/</guid>
+      <description>Grünwald NJ, Everhart SE, Knaus BJ, Kamvar ZN. (2017) Best practices for population genetic analyses. Phytopathology 107:9 doi: 10.1094/PHYTO-12-16-0425-RVW
+Jombart T, Archer F, Schliep K, Kamvar ZN, Harris R, Paradis E, Goudet J, Lapp H (2017). apex: phylogenetics with multiple genes. Molecular Ecology Resources. 17:1 19-26 doi: 10.1111&amp;frasl;1755-0998.12567
+Kamvar ZN, López-Uribe MM, Coughlan S, Grünwald NJ, Lapp H, Manel S (2017). Developing educational resources for population genetics in R: an open and collaborative approach.</description>
+    </item>
     
     <item>
       <title>Squishing a big bad bug</title>
