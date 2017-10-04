@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Science on Zhian N. Kamvar</title>
-    <link>/categories/science/</link>
-    <description>Recent content in Science on Zhian N. Kamvar</description>
+    <title>Github on Zhian N. Kamvar</title>
+    <link>/tags/github/</link>
+    <description>Recent content in Github on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
 Our massive Sclerotinia pop gen study out as preprint today @PeerJPreprints https://t.co/O85hUURi2s #AgriculturalScience #Genetics #Mycology
 &amp;mdash; Sydney Everhart (@SydneyEverhart) October 3, 2017  Here’s the citation:
  Kamvar ZN, Amaradasa BS, Jhala R, McCoy S, Steadman JR, Everhart SE. (2017) Population structure and phenotypic variation of Sclerotinia sclerotiorum from dry bean in the United States.</description>
-    </item>
-    
-    <item>
-      <title>Squishing a big bad bug</title>
-      <link>/blog/squish/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/squish/</guid>
-      <description>As I was preparing to push a new version of poppr to CRAN , this tweet (appropriately) came across my feed:
-Mistakes happen in science. What matters is what you do next. Anyone want to share a story of a mistake &amp;amp; how they handled it?
-&amp;mdash; Adrienne Porter Felt (@__apf__) September 10, 2017  The reason I was updating poppr was to fix a mistake I had made a few years ago.</description>
     </item>
     
   </channel>

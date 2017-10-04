@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Preprint Day!</title>
+      <link>/blog/preprint-day/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/preprint-day/</guid>
+      <description>Today, we finally published a preprint for a manuscript that spans over 15 years of data 🎉!
+Our massive Sclerotinia pop gen study out as preprint today @PeerJPreprints https://t.co/O85hUURi2s #AgriculturalScience #Genetics #Mycology
+&amp;mdash; Sydney Everhart (@SydneyEverhart) October 3, 2017  Here’s the citation:
+ Kamvar ZN, Amaradasa BS, Jhala R, McCoy S, Steadman JR, Everhart SE. (2017) Population structure and phenotypic variation of Sclerotinia sclerotiorum from dry bean in the United States.</description>
+    </item>
     
     <item>
       <title>Squishing a big bad bug</title>

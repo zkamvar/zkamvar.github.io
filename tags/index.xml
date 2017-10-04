@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Continuous Integration</title>
+      <link>/tags/continuous-integration/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cran</title>
       <link>/tags/cran/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
@@ -48,11 +57,29 @@
     </item>
     
     <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ggplot2</title>
       <link>/tags/ggplot2/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/tags/github/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     
@@ -66,11 +93,38 @@
     </item>
     
     <item>
+      <title>Open Science Framework</title>
+      <link>/tags/open-science-framework/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-science-framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Poppr</title>
       <link>/tags/poppr/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/poppr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preprint</title>
+      <link>/tags/preprint/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducibility</title>
+      <link>/tags/reproducibility/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reproducibility/</guid>
       <description></description>
     </item>
     
