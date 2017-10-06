@@ -6,10 +6,19 @@
     <description>Recent content in Science on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/science/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installing the ABySS</title>
+      <link>/blog/installing-the-abyss/</link>
+      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/installing-the-abyss/</guid>
+      <description>A couple of weeks ago, I wanted to explore assembling 55 genomes of Sclerotinia sclerotiorum to check for structural rearrangements that could be caused by sub-lethal fungicide exposure. I figured the best way to do this was to assemble these genomes de novo as opposed to aligning them to a reference. This brought me to installing the ABySS de novo assembler on the HCC Tusker Cluster… and I can happily report, that after half a day of command line bullshittery1, I had ABySS up and running 👍.</description>
+    </item>
     
     <item>
       <title>Preprint Day!</title>
