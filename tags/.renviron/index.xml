@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Renviron on Zhian N. Kamvar</title>
+    <link>/tags/.renviron/</link>
+    <description>Recent content in .Renviron on Zhian N. Kamvar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/.renviron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using a custom library in R</title>
+      <link>/blog/using-a-custom-library-in-r/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/using-a-custom-library-in-r/</guid>
+      <description>I’ve been using a custom library for R since 2012 and I’ve never looked back. I’ve not seen many tutorials for people do do this through R, so I figured I’d write a quick one.
+Where does your R package library live? You can ususally find this out by typing .libPaths() in your R console. If you have an out-of-the-box installation, it will generally be somewhere like:
+C:/Program Files/R/R-3.4.2/library or</description>
+    </item>
+    
+  </channel>
+</rss>

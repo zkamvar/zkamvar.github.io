@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.Libpaths</title>
+      <link>/tags/.libpaths/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/.libpaths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.Renviron</title>
+      <link>/tags/.renviron/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/.renviron/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Abyss</title>
@@ -84,6 +102,15 @@
     </item>
     
     <item>
+      <title>Environment Variable</title>
+      <link>/tags/environment-variable/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/environment-variable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ggplot2</title>
       <link>/tags/ggplot2/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
@@ -107,6 +134,15 @@
       <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/hpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Library</title>
+      <link>/tags/library/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/library/</guid>
       <description></description>
     </item>
     
@@ -143,6 +179,15 @@
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     

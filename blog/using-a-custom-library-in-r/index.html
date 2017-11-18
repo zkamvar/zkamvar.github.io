@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Open Science Framework</title>
+  <title>Using a custom library in R</title>
   <meta name="author" content="" />
 
   
@@ -62,13 +62,16 @@
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Zhian N. Kamvar">
 
   
-  <meta property="og:title" content="Open Science Framework" />
+  <meta property="og:title" content="Using a custom library in R" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/tags/open-science-framework//" />
+  <meta property="og:url" content="/blog/using-a-custom-library-in-r//" />
   <meta property="og:image" content="img/logo.png" />
   <script src="https://hypothes.is/embed.js" async></script>
   
   
+
+
+
 
 
 </head>
@@ -87,9 +90,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logo.png" alt="Open Science Framework logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Open Science Framework logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Open Science Framework - go to homepage</span>
+                    <img src="/img/logo.png" alt="Using a custom library in R logo" class="hidden-xs hidden-sm">
+                    <img src="/img/logo-small.png" alt="Using a custom library in R logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Using a custom library in R - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -160,181 +163,177 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
-                    
-
-                    <div class="col-md-9" id="blog-listing-medium">
-
-                        
-                        <h1 class="year-summary">2017</h2>
-
-                        
-                        <section class="blog">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <h2><a href="/blog/preprint-day/">Preprint Day!</a></h2>
-                                </div>
-                                <div class="col-md-3">
-                                    <span class="text-right">2017-10-02</span>
-                                </div>
-                            </div>
-                        </section>
-                        
-                        
-
-                        <ul class="pager">
-
-                        </ul>
-                    </div>
-                    
 
                     
+                    <div class="col-md-1"></div>
 
-                    
+                    <div class="col-md-10" id="blog-post">
 
-                    <div class="col-md-3">
+                        <h2>Using a custom library in R</h2>
 
+                        <span class="article-duration">3 min read</span>
                         
+                        <div class="article-date">
+  <span>
+   Zhian N. Kamvar - 
 
-                        
+  2017-11-18
+  </span>
 
-<div class="panel panel-default sidebar-menu">
+  <span class="article-toolbar">
+    
+    <a href="/blog/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
+    
 
-    <div class="panel-heading">
-      <h3 class="panel-title">Search</h3>
-    </div>
+    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i></a>
 
-    <div class="panel-body">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
-            <div class="input-group">
-                <input type="search" name="q" results="0" class="form-control" placeholder="Search">
-                <input type="hidden" name="q" value="site:/">
-                <span class="input-group-btn">
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-        </form>
-    </div>
+    <a href="https://twitter.com/home?status=Using&#43;a&#43;custom&#43;library&#43;in&#43;R&#43;%2Fblog%2Fusing-a-custom-library-in-r%2F&#43;via&#43;%40zkamvar" target="_blank">
+      <i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i>
+    </a>
+
+    
+    
+    <a href="https://github.com/zkamvar/blog-source/edit/master/content/blog/2017-11-18-using-a-custom-library-in-r.Rmd"><i class="fa fa-pencil-square-o" aria-hidden="true" ></i></a>
+    
+
+  </span>
+
 </div>
 
 
+                        
+
+
+<p class="meta-tags">
+
+  
+  <a href="/tags/library" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> library</a>
+  
+  <a href="/tags/.libpaths" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> .libPaths()</a>
+  
+  <a href="/tags/.renviron" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> .Renviron</a>
+  
+  <a href="/tags/environment-variable" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> environment variable</a>
+  
+  <a href="/tags/r" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> R</a>
+  
+
+</p>
 
 
 
 
+                        <div id="post-content">
+                          <p>I’ve been using a custom library for R since 2012 and I’ve never looked back. I’ve not seen many tutorials for people do do this through R, so I figured I’d write a quick one.</p>
+<div id="where-does-your-r-package-library-live" class="section level1">
+<h1>Where does your R package library live?</h1>
+<p>You can ususally find this out by typing <code>.libPaths()</code> in your R console. If you have an out-of-the-box installation, it will generally be somewhere like:</p>
+<pre><code>C:/Program Files/R/R-3.4.2/library</code></pre>
+<p>or</p>
+<pre><code>/Library/Frameworks/R.framework/Versions/3.4/Resources/library</code></pre>
+<p>This is the place on your computer where R will put any packages you attempt to install with <code>install.packages()</code>. However, you might notice one problem: this library is version-specific, which means that when you update R, you will also have to <a href="https://www.r-bloggers.com/upgrade-r-without-losing-your-packages/">migrate your existing library</a>. Moreover, if you’re on Windows, <a href="https://stackoverflow.com/q/15170399/2752888">you may not have permissions to write to the library path</a> 🙀.</p>
+</div>
+<div id="what-if-i-told-you-there-was-a-better-way" class="section level1">
+<h1>What if I told you there was a better way?</h1>
+<div class="figure">
+<img src="../../img/banners/smashing-library.gif" />
 
-<div class="panel panel-default sidebar-menu">
-
-    <div class="panel-heading">
-      <h3 class="panel-title">Categories</h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="nav nav-pills nav-stacked">
-            
-            <li><a href="/categories/example">example (3)</a>
-            </li>
-            
-            <li><a href="/categories/grad-school">grad-school (1)</a>
-            </li>
-            
-            <li><a href="/categories/r">r (4)</a>
-            </li>
-            
-            <li><a href="/categories/science">science (3)</a>
-            </li>
-            
-        </ul>
-    </div>
+</div>
+<p>The solution to avoid the hassle of constat library migration is to make a custom library folder<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> and set the environmental variable <code>R_LIBS</code> to point to that folder 👍.</p>
+<p>Now, this has been <a href="https://www.r-bloggers.com/updating-r-but-keeping-your-installed-packages/">touched</a> <a href="https://csgillespie.github.io/efficientR/3-3-r-startup.html#renviron">on</a> <a href="http://kbroman.org/pkg_primer/pages/build.html#installing-a-package-in-a-personal-directory">before</a>, but when it comes to explaining HOW to set that environment variable, these fall short<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> 🤷‍♂️. This short post will demonstrate how to persistently set the variable without ever having to leave R 😎.</p>
+</div>
+<div id="creating-your-.renviron-file-and-setting-r_libs" class="section level1">
+<h1>Creating your <code>.Renviron</code> file and setting <code>R_LIBS</code></h1>
+<p>The <code>.Renviron</code> file is where you can store environment variables that R uses to gather specific information about your particular computer. In this case, we are going to use it to tell R where your R library lives using the <code>R_LIBS</code> environment variable.</p>
+<p>What we are going to do is:</p>
+<ol style="list-style-type: decimal">
+<li>Create a folder (~/R/library) to serve as our new library</li>
+<li>Create a file called <code>~/.Renviron</code><a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></li>
+<li>Add <code>R_LIBS=~/R/library</code> to the <code>~/.Renviron</code> file</li>
+<li>Restart R and install our packages.</li>
+</ol>
+<blockquote>
+<p>For this tutorial, I’m using ~/R/library for the custom library, but you can set it to any folder you wish.</p>
+</blockquote>
+<p>The first step, create the directory. Note that this will give you a warning message if the directory already exists.</p>
+<pre class="r"><code>dir.create(&quot;~/R/library&quot;, recursive = TRUE)</code></pre>
+<p>Now we can create our <code>~/.Renviron</code> file. This is a part we need to be careful. If there already is a <code>.Renviron</code> file, we don’t want to accidentally clobber it. To help with that, we will use <code>file.exists()</code> with an <code>if</code> statement to tell us whether or not to create the file:</p>
+<pre class="r"><code>if (file.exists(&quot;~/.Renviron&quot;)) {
+  message(&quot;~/.Renviron already exists!&quot;)
+} else {
+  file.create(&quot;~/.Renviron&quot;)
+  message(&quot;created ~/.Renviron&quot;)
+}</code></pre>
+<pre><code>## created ~/.Renviron</code></pre>
+<p>Now we can write <code>R_LIBS=~/R/library</code> to the <code>~/.Renviron</code> file:</p>
+<pre class="r"><code>cat(&quot;R_LIBS=~/R/library&quot;, file = &quot;~/.Renviron&quot;, append = TRUE)</code></pre>
+<blockquote>
+<p>Restart R now</p>
+</blockquote>
+<p>Now after you’ve restarted R, your library will appear:</p>
+<pre class="r"><code>.libPaths()</code></pre>
+<pre><code>## [1] &quot;/Users/zhian/R/library&quot;                                        
+## [2] &quot;/Library/Frameworks/R.framework/Versions/3.4/Resources/library&quot;</code></pre>
+</div>
+<div id="moving-forward" class="section level1">
+<h1>Moving forward</h1>
+<p>Now you can feel free to update your version of R without having to go through the hassle of migrating your library. Even better, you can take advantage of <code>update.packages()</code> to auto-update packages in your R library like so:</p>
+<pre class="r"><code>update.packages(ask = FALSE, checkBuilt = TRUE)</code></pre>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Note: I am using the word “folder” here to mean “directory”.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Please do not take this to mean that these are bad resources. I’m just picking nits here 😄.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>Two things: 1) The ~/ denotes the home folder. All of your documents are nested in this folder. 2) <code>.Renviron</code> starts with a dot, which hides it from your file browser by default.<a href="#fnref3">↩</a></p></li>
+</ol>
 </div>
 
+                        </div>
+                        
+
+                        
+
+
+                        
+<nav id="article-nav">
+  
+    <a href="/blog/installing-the-abyss/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Installing the ABySS</div>
+    </a>
+    
+
+    
+
+</nav>
 
 
 
-
-
-
-
-<div class="panel sidebar-menu">
-    <div class="panel-heading">
-      <h3 class="panel-title">Tags</h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="tag-cloud">
-            
-            <li><a href="/tags/.libpaths"><i class="fa fa-tags"></i> .libpaths</a>
-            </li>
-            
-            <li><a href="/tags/.renviron"><i class="fa fa-tags"></i> .renviron</a>
-            </li>
-            
-            <li><a href="/tags/abyss"><i class="fa fa-tags"></i> abyss</a>
-            </li>
-            
-            <li><a href="/tags/algorithms"><i class="fa fa-tags"></i> algorithms</a>
-            </li>
-            
-            <li><a href="/tags/bruvo"><i class="fa fa-tags"></i> bruvo</a>
-            </li>
-            
-            <li><a href="/tags/command-line"><i class="fa fa-tags"></i> command-line</a>
-            </li>
-            
-            <li><a href="/tags/continuous-integration"><i class="fa fa-tags"></i> continuous-integration</a>
-            </li>
-            
-            <li><a href="/tags/cran"><i class="fa fa-tags"></i> cran</a>
-            </li>
-            
-            <li><a href="/tags/cranlogs"><i class="fa fa-tags"></i> cranlogs</a>
-            </li>
-            
-            <li><a href="/tags/docker"><i class="fa fa-tags"></i> docker</a>
-            </li>
-            
-            <li><a href="/tags/environment-variable"><i class="fa fa-tags"></i> environment-variable</a>
-            </li>
-            
-            <li><a href="/tags/ggplot2"><i class="fa fa-tags"></i> ggplot2</a>
-            </li>
-            
-            <li><a href="/tags/github"><i class="fa fa-tags"></i> github</a>
-            </li>
-            
-            <li><a href="/tags/hpc"><i class="fa fa-tags"></i> hpc</a>
-            </li>
-            
-            <li><a href="/tags/library"><i class="fa fa-tags"></i> library</a>
-            </li>
-            
-            <li><a href="/tags/multilocus-genotype"><i class="fa fa-tags"></i> multilocus-genotype</a>
-            </li>
-            
-            <li><a href="/tags/open-science-framework"><i class="fa fa-tags"></i> open-science-framework</a>
-            </li>
-            
-            <li><a href="/tags/poppr"><i class="fa fa-tags"></i> poppr</a>
-            </li>
-            
-            <li><a href="/tags/preprint"><i class="fa fa-tags"></i> preprint</a>
-            </li>
-            
-            <li><a href="/tags/r"><i class="fa fa-tags"></i> r</a>
-            </li>
-            
-            <li><a href="/tags/reproducibility"><i class="fa fa-tags"></i> reproducibility</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zkamvar" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
                         
 
                     </div>
@@ -344,6 +343,7 @@
 
                 </div>
                 
+
             </div>
             
         </div>
@@ -456,6 +456,16 @@
 
     
 
+
+
+<script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+
+
+
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
     
 
     
@@ -519,6 +529,8 @@ ga('send', 'pageview');
 
 <script src="/js/owl.carousel.min.js"></script>
 
+
+    
 
   </body>
 </html>
