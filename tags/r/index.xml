@@ -6,10 +6,20 @@
     <description>Recent content in R on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Poppr 2.6.0: Better Network Plotting</title>
+      <link>/blog/poppr-2-6-0-better-network-plotting/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/poppr-2-6-0-better-network-plotting/</guid>
+      <description>Poppr version 2.6.0 has officially been released on CRAN and should be built for all operating systems within the next few days 🎉. You can check out the NEWS for full details. This release features a new function called boot.ia() to assess how the Index of Association responds to repeat observations (clones). Perhaps the biggest feature is the change in how minimum spanning networks are plotted.
+Minimum spanning networks were originally implemented in poppr by Javier Tabima and I, and since then they’ve gone through some tweaking, eventually including features like reticulation of equivalent paths and a GUI to help construct these networks.</description>
+    </item>
     
     <item>
       <title>Using a custom library in R</title>

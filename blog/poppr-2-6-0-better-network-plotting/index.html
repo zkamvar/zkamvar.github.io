@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Algorithms</title>
+  <title>Poppr 2.6.0: Better Network Plotting</title>
   <meta name="author" content="" />
 
   
@@ -62,13 +62,16 @@
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Zhian N. Kamvar">
 
   
-  <meta property="og:title" content="Algorithms" />
+  <meta property="og:title" content="Poppr 2.6.0: Better Network Plotting" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/tags/algorithms//" />
+  <meta property="og:url" content="/blog/poppr-2-6-0-better-network-plotting//" />
   <meta property="og:image" content="img/logo.png" />
   <script src="https://hypothes.is/embed.js" async></script>
   
   
+
+
+
 
 
 </head>
@@ -87,9 +90,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logo.png" alt="Algorithms logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Algorithms logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Algorithms - go to homepage</span>
+                    <img src="/img/logo.png" alt="Poppr 2.6.0: Better Network Plotting logo" class="hidden-xs hidden-sm">
+                    <img src="/img/logo-small.png" alt="Poppr 2.6.0: Better Network Plotting logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Poppr 2.6.0: Better Network Plotting - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -160,181 +163,134 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
-                    
-
-                    <div class="col-md-9" id="blog-listing-medium">
-
-                        
-                        <h1 class="year-summary">2017</h2>
-
-                        
-                        <section class="blog">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <h2><a href="/blog/squish/">Squishing a big bad bug</a></h2>
-                                </div>
-                                <div class="col-md-3">
-                                    <span class="text-right">2017-09-17</span>
-                                </div>
-                            </div>
-                        </section>
-                        
-                        
-
-                        <ul class="pager">
-
-                        </ul>
-                    </div>
-                    
 
                     
+                    <div class="col-md-1"></div>
 
-                    
+                    <div class="col-md-10" id="blog-post">
 
-                    <div class="col-md-3">
+                        <h2>Poppr 2.6.0: Better Network Plotting</h2>
 
+                        <span class="article-duration">1 min read</span>
                         
+                        <div class="article-date">
+  <span>
+   Zhian N. Kamvar - 
 
-                        
+  2018-01-11
+  </span>
 
-<div class="panel panel-default sidebar-menu">
+  <span class="article-toolbar">
+    
+    <a href="/blog/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
+    
 
-    <div class="panel-heading">
-      <h3 class="panel-title">Search</h3>
-    </div>
+    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i></a>
 
-    <div class="panel-body">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
-            <div class="input-group">
-                <input type="search" name="q" results="0" class="form-control" placeholder="Search">
-                <input type="hidden" name="q" value="site:/">
-                <span class="input-group-btn">
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-        </form>
-    </div>
+    <a href="https://twitter.com/home?status=Poppr&#43;2.6.0%3A&#43;Better&#43;Network&#43;Plotting&#43;%2Fblog%2Fpoppr-2-6-0-better-network-plotting%2F&#43;via&#43;%40zkamvar" target="_blank">
+      <i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i>
+    </a>
+
+    
+    
+    <a href="https://github.com/zkamvar/blog-source/edit/master/content/blog/2018-01-11-poppr-2-6-0-better-network-plotting.Rmd"><i class="fa fa-pencil-square-o" aria-hidden="true" ></i></a>
+    
+
+  </span>
+
 </div>
 
 
+                        
+
+
+<p class="meta-tags">
+
+  
+  <a href="/tags/cran" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> CRAN</a>
+  
+  <a href="/tags/poppr" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> poppr</a>
+  
+  <a href="/tags/r" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> R</a>
+  
+
+</p>
 
 
 
 
+                        <div id="post-content">
+                          <p>Poppr version 2.6.0 has <a href="https://cran.r-project.org/package=poppr">officially been released on CRAN</a> and should be built for all operating systems within the next few days 🎉. You can check out the <a href="https://grunwaldlab.github.io/poppr/news/index.html#poppr-2-6-0">NEWS</a> for full details. This release features a new function called <a href="https://grunwaldlab.github.io/poppr/reference/boot.ia.html"><code>boot.ia()</code></a> to assess how the <a href="https://grunwaldlab.github.io/poppr/reference/ia.html#details">Index of Association</a> responds to repeat observations (clones). Perhaps the biggest feature is the change in how minimum spanning networks are plotted.</p>
+<p>Minimum spanning networks were originally implemented in poppr by Javier Tabima and I, and since then they’ve gone through some tweaking, eventually including features like reticulation of equivalent paths and a GUI to help construct these networks.</p>
+<p>There were two problems, however:</p>
+<ol style="list-style-type: decimal">
+<li>Nodes were scaled by radius instead of area</li>
+<li>There was no legend for node sizes</li>
+</ol>
+<p>Plotting by radius was especially problematic because they <a href="http://coolinfographics.com/blog/2014/8/29/false-visualizations-sizing-circles-in-infographics.html">exaggerate differences between groups</a>. Here’s an example of a network that was plotted with the previous version of poppr:</p>
+<p><img src="/blog/2018-01-11-poppr-2-6-0-better-network-plotting_files/figure-html/orig-plot-1.png" width="672" /></p>
+<p>And here’s that same network plotted with the current version:</p>
+<pre class="r"><code>library(&quot;poppr&quot;)
+data(Aeut)
 
-<div class="panel panel-default sidebar-menu">
+# Basic plot
+set.seed(2018-01-08)
+amsn &lt;- poppr.msn(Aeut, diss.dist(Aeut), include.ties = TRUE)</code></pre>
+<p><img src="/blog/2018-01-11-poppr-2-6-0-better-network-plotting_files/figure-html/msn_demo-1.png" width="672" /></p>
+<pre class="r"><code># with scale bar
+set.seed(2018-01-08)
+plot_poppr_msn(Aeut,
+               amsn,
+               inds = &quot;none&quot;, # don&#39;t show any labels 
+               nodelab = 100 # don&#39;t label the sizes of nodes
+               )</code></pre>
+<p><img src="/blog/2018-01-11-poppr-2-6-0-better-network-plotting_files/figure-html/msn_demo-2.png" width="672" /></p>
 
-    <div class="panel-heading">
-      <h3 class="panel-title">Categories</h3>
-    </div>
+                        </div>
+                        
 
-    <div class="panel-body">
-        <ul class="nav nav-pills nav-stacked">
-            
-            <li><a href="/categories/example">example (4)</a>
-            </li>
-            
-            <li><a href="/categories/grad-school">grad-school (1)</a>
-            </li>
-            
-            <li><a href="/categories/r">r (5)</a>
-            </li>
-            
-            <li><a href="/categories/science">science (3)</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
+                        
 
 
+                        
+<nav id="article-nav">
+  
+    <a href="/blog/using-a-custom-library-in-r/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Using a custom library in R</div>
+    </a>
+    
 
+    
 
-
-
-
-
-<div class="panel sidebar-menu">
-    <div class="panel-heading">
-      <h3 class="panel-title">Tags</h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="tag-cloud">
-            
-            <li><a href="/tags/.libpaths"><i class="fa fa-tags"></i> .libpaths</a>
-            </li>
-            
-            <li><a href="/tags/.renviron"><i class="fa fa-tags"></i> .renviron</a>
-            </li>
-            
-            <li><a href="/tags/abyss"><i class="fa fa-tags"></i> abyss</a>
-            </li>
-            
-            <li><a href="/tags/algorithms"><i class="fa fa-tags"></i> algorithms</a>
-            </li>
-            
-            <li><a href="/tags/bruvo"><i class="fa fa-tags"></i> bruvo</a>
-            </li>
-            
-            <li><a href="/tags/command-line"><i class="fa fa-tags"></i> command-line</a>
-            </li>
-            
-            <li><a href="/tags/continuous-integration"><i class="fa fa-tags"></i> continuous-integration</a>
-            </li>
-            
-            <li><a href="/tags/cran"><i class="fa fa-tags"></i> cran</a>
-            </li>
-            
-            <li><a href="/tags/cranlogs"><i class="fa fa-tags"></i> cranlogs</a>
-            </li>
-            
-            <li><a href="/tags/docker"><i class="fa fa-tags"></i> docker</a>
-            </li>
-            
-            <li><a href="/tags/environment-variable"><i class="fa fa-tags"></i> environment-variable</a>
-            </li>
-            
-            <li><a href="/tags/ggplot2"><i class="fa fa-tags"></i> ggplot2</a>
-            </li>
-            
-            <li><a href="/tags/github"><i class="fa fa-tags"></i> github</a>
-            </li>
-            
-            <li><a href="/tags/hpc"><i class="fa fa-tags"></i> hpc</a>
-            </li>
-            
-            <li><a href="/tags/library"><i class="fa fa-tags"></i> library</a>
-            </li>
-            
-            <li><a href="/tags/multilocus-genotype"><i class="fa fa-tags"></i> multilocus-genotype</a>
-            </li>
-            
-            <li><a href="/tags/open-science-framework"><i class="fa fa-tags"></i> open-science-framework</a>
-            </li>
-            
-            <li><a href="/tags/poppr"><i class="fa fa-tags"></i> poppr</a>
-            </li>
-            
-            <li><a href="/tags/preprint"><i class="fa fa-tags"></i> preprint</a>
-            </li>
-            
-            <li><a href="/tags/r"><i class="fa fa-tags"></i> r</a>
-            </li>
-            
-            <li><a href="/tags/reproducibility"><i class="fa fa-tags"></i> reproducibility</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
+</nav>
 
 
 
-
-
-
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zkamvar" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
                         
 
                     </div>
@@ -344,6 +300,7 @@
 
                 </div>
                 
+
             </div>
             
         </div>
@@ -456,6 +413,16 @@
 
     
 
+
+
+<script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+
+
+
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
     
 
     
@@ -519,6 +486,8 @@ ga('send', 'pageview');
 
 <script src="/js/owl.carousel.min.js"></script>
 
+
+    
 
   </body>
 </html>

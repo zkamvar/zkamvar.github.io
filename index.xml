@@ -6,10 +6,20 @@
     <description>Recent content on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Poppr 2.6.0: Better Network Plotting</title>
+      <link>/blog/poppr-2-6-0-better-network-plotting/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/poppr-2-6-0-better-network-plotting/</guid>
+      <description>Poppr version 2.6.0 has officially been released on CRAN and should be built for all operating systems within the next few days 🎉. You can check out the NEWS for full details. This release features a new function called boot.ia() to assess how the Index of Association responds to repeat observations (clones). Perhaps the biggest feature is the change in how minimum spanning networks are plotted.
+Minimum spanning networks were originally implemented in poppr by Javier Tabima and I, and since then they’ve gone through some tweaking, eventually including features like reticulation of equivalent paths and a GUI to help construct these networks.</description>
+    </item>
     
     <item>
       <title>Using a custom library in R</title>
@@ -49,9 +59,9 @@ Our massive Sclerotinia pop gen study out as preprint today @PeerJPreprints http
       <pubDate>Sun, 24 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/pubs/</guid>
-      <description>Grünwald NJ, Everhart SE, Knaus BJ, Kamvar ZN. (2017) Best practices for population genetic analyses. Phytopathology 107:9 doi: 10.1094/PHYTO-12-16-0425-RVW
-Jombart T, Archer F, Schliep K, Kamvar ZN, Harris R, Paradis E, Goudet J, Lapp H (2017). apex: phylogenetics with multiple genes. Molecular Ecology Resources. 17:1 19-26 doi: 10.1111&amp;frasl;1755-0998.12567
-Kamvar ZN, López-Uribe MM, Coughlan S, Grünwald NJ, Lapp H, Manel S (2017). Developing educational resources for population genetics in R: an open and collaborative approach.</description>
+      <description>Kamvar ZN, Amaradasa BS, Jhala R, McCoy S, Steadman JR, Everhart SE. (2017) Population structure and phenotypic variation of Sclerotinia sclerotiorum from dry bean (Phaseolus vulgaris) in the United States. PeerJ 5:e4152 doi: 10.7717/peerj.4152
+Grünwald NJ, Everhart SE, Knaus BJ, Kamvar ZN. (2017) Best practices for population genetic analyses. Phytopathology 107:9 doi: 10.1094/PHYTO-12-16-0425-RVW
+Jombart T, Archer F, Schliep K, Kamvar ZN, Harris R, Paradis E, Goudet J, Lapp H (2017). apex: phylogenetics with multiple genes.</description>
     </item>
     
     <item>
