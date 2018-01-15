@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I C Bugs</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="r">
+  
+
+  
+  <meta name="description" content="Zhian N. Kamvar">
+  
+
+  <meta name="generator" content="Hugo 0.32.2" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="/lib/gallery/css/blueimp-gallery.min.css">
+
+  
+  <link href="/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="/css/style.violet.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+  
+  <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css">
+  <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+  <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+  
+
+
+  
+  <link href="/css/custom.css" rel="stylesheet">
+
+  
+    
+
+  
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+  
+
+  <link href="/css/owl.carousel.css" rel="stylesheet">
+  <link href="/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Zhian N. Kamvar">
+
+  
+  <meta property="og:title" content="I C Bugs" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/blog/i-c-bugs//" />
+  <meta property="og:image" content="img/logo.png" />
+  <script src="https://hypothes.is/embed.js" async></script>
+  
+  
+
+
+
+
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    <img src="/img/logo.png" alt="I C Bugs logo" class="hidden-xs hidden-sm">
+                    <img src="/img/logo-small.png" alt="I C Bugs logo" class="visible-xs visible-sm">
+                    <span class="sr-only">I C Bugs - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about">About</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/pubs">Publications</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-10" id="blog-post">
+
+                        <h2>I C Bugs</h2>
+
+                        <span class="article-duration">7 min read</span>
+                        
+                        <div class="article-date">
+  <span>
+   Zhian N. Kamvar - 
+
+  2018-01-14
+  </span>
+
+  <span class="article-toolbar">
+    
+    <a href="/blog/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
+    
+
+    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i></a>
+
+    <a href="https://twitter.com/home?status=I&#43;C&#43;Bugs&#43;%2Fblog%2Fi-c-bugs%2F&#43;via&#43;%40zkamvar" target="_blank">
+      <i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i>
+    </a>
+
+    
+    
+    <a href="https://github.com/zkamvar/blog-source/edit/master/content/blog/2018-01-14-i-c-bugs.Rmd"><i class="fa fa-pencil-square-o" aria-hidden="true" ></i></a>
+    
+
+  </span>
+
+</div>
+
+
+                        
+
+
+<p class="meta-tags">
+
+  
+  <a href="/tags/cran" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> CRAN</a>
+  
+  <a href="/tags/poppr" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> poppr</a>
+  
+  <a href="/tags/r" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> R</a>
+  
+  <a href="/tags/c" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> C</a>
+  
+  <a href="/tags/bug" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> bug</a>
+  
+  <a href="/tags/lldb" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> lldb</a>
+  
+  <a href="/tags/clang" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> clang</a>
+  
+
+</p>
+
+
+
+
+                        <div id="post-content">
+                          <figure>
+<img width="50%" src="../../img/banners/Halyomorpha_halys_lab.jpg" alt="A Brown marmorated stink bug female from a laboratory colony on a common bean leaf, photographed in the laboratory of Fondazione Edmund Mach, Italy." longdesc = "https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_lab.jpg" />
+<figcaption width="75%">
+A Brown marmorated stink bug female from a laboratory colony on a common bean leaf, photographed in the laboratory of Fondazione Edmund Mach, Italy.<br> URL: <a href="https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_lab.jpg" class="uri">https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_lab.jpg</a>
+</figcaption>
+</figure>
+<p>Occasionally, I hear people complain about the strict policies of <a href="https://cran.r-project.org/package=poppr">CRAN</a>, but I for one quite apprecieate them, especially when dealing with hidden errors in compiled code.</p>
+<p>Not twenty-four hours after I had submitted <a href="https://zkamvar.github.io/blog/poppr-2-6-0-better-network-plotting/">poppr version 2.6.0</a> to <a href="https://cran.r-project.org/package=poppr">CRAN</a> did I receive an email from none other than Brian D. Ripley. If you are unfamiliar with the name, then know that it tends to <a href="http://www.gastonsanchez.com/visually-enforced/opinion/2013/12/10/I-violated-CRAN-Repository-Policies/">strike fear</a> in the hearts of even the <a href="https://twitter.com/hadleywickham/status/276022791839571968">most steeled</a>:</p>
+<pre class="r"><code>library(&quot;fortunes&quot;)
+fortune(&quot;Ripleyed&quot;)</code></pre>
+<pre><code>## 
+## And the fear of getting Ripleyed on the mailing list also makes me think,
+## read, and improve before submitting half baked questions to the list.
+##    -- Eric Kort
+##       R-help (January 2006)</code></pre>
+<p>This was not the first time I got an email from Ripley (and probably won’t be the last). More often than not, the emails I get from him alert me to little things that have gone wrong in memory allocation for code that I’ve written in C. The email I got from him on January 9th was informing me that there was a new note from the <a href="https://www.stats.ox.ac.uk/pub/bdr/memtests/README.txt">clang address sanitizer</a> saying that there was a <a href="https://github.com/grunwaldlab/poppr/issues/169">potential memory leak in <code>bitwise_distance.c</code></a>:</p>
+<blockquote>
+<p>Please correct ASAP and before Jan 24 to safely retain the package on CRAN.</p>
+</blockquote>
+<div id="fixing-the-error" class="section level1">
+<h1>Fixing the error</h1>
+<p>I had initially attempted to try to reproduce the error using a <a href="https://hub.docker.com/r/zkamvar/poppr-devel-docker/~/dockerfile/">docker container built with the address sanitizer</a>, but quickly became frustrated with it due to errors unrelated to poppr. My next plan of action was to inspect the code using a debugger. I found <a href="http://kevinushey.github.io/blog/2015/04/13/debugging-with-lldb/">Kevin Ushey’s blog post on debugging with LLDB</a> and began to go to work.</p>
+<p>The error occurred <a href="https://github.com/grunwaldlab/poppr/blob/453f08f56574b778775988e7fce2650d4a37ef5f/src/bitwise_distance.c#L674">at the end of a “while” loop</a> that was written four years ago. Here’s what the code looks like without the comments:</p>
+<pre class="c"><code>while(next_missing_index_i &lt; nap1_length &amp;&amp; next_missing_i &lt; (k+1)*8 &amp;&amp; next_missing_i &gt;= (k*8) )
+{
+  mask = 1 &lt;&lt; (next_missing_i%8); 
+  if(missing_match)
+  {
+    tmp_sim_set |= mask; // Force the missing bit to match
+  }
+  else
+  {
+    tmp_sim_set &amp;= ~mask; // Force the missing bit to not match
+  }
+  // Find the index of the next missing value in sample i.
+  next_missing_index_i++; 
+  next_missing_i = (int)INTEGER(R_nap1)[next_missing_index_i] - 1; // &lt;--- BUG!
+}       </code></pre>
+<p>I won’t go into detail what this code does, but the reason why it triggered a warning from the address sanitizer is because of a <a href="https://en.wikipedia.org/wiki/Off-by-one_error#Fencepost_error">fencepost error</a>. The loop monitors <code>next_missing_index_i</code> and repeats the operation until it is equal to <code>nap1_length</code>, which happens to be the length of the array it indexes. Because the index is incremented before the array is indexed, the last step of the loop always attempts to access a bit of memory that wasn’t allocated.</p>
+<blockquote>
+<p>Note: to debug, be sure to change your optimization flags to <code>-O0</code> for your compiler. You can do this in your <code>~/.R/Makevars</code> file:</p>
+<pre class="sh"><code>CFLAGS +=         -O0 -Wall -pipe -pedantic -std=gnu99 -fopenmp
+CXXFLAGS +=       -O0 -Wall -pipe -Wno-unused -pedantic
+CXX1XFLAGS +=     -O0 -pipe
+PKG_CXX1XFLAGS += -O0 -pipe</code></pre>
+</blockquote>
+<p>Using the debugger was surprisingly easy. My process was to tweak the C code and then start R with the debugger, and install poppr:</p>
+<pre class="lldb"><code>17:47:09~/Documents/poppr (master)&gt; R -d lldb
+*** Further command line arguments (&#39;--no-save --no-restore-data &#39;) disregarded
+*** (maybe use &#39;run --no-save --no-restore-data &#39; from *inside* lldb)
+
+(lldb) target create &quot;/Library/Frameworks/R.framework/Resources/bin/exec/R&quot;
+Current executable set to &#39;/Library/Frameworks/R.framework/Resources/bin/exec/R&#39; (x86_64).
+(lldb) run --no-save --no-restore-data -q
+Process 10723 launched: &#39;/Library/Frameworks/R.framework/Resources/bin/exec/R&#39; (x86_64)
+&gt; devtools::install()
+...
+&gt; library(&quot;poppr&quot;)
+...
+&gt;</code></pre>
+<p>After that, I could load my test data and, before I ran <code>bitwise.dist()</code>, I hit <kbd>ctrl+c</kbd>, which took me back into lldb:</p>
+<pre class="c"><code>&gt; Process 10723 stopped
+* thread #1: tid = 0x8251a, 0x00007fff60f01fca libsystem_kernel.dylib`__select + 10, stop reason = signal SIGSTOP
+    frame #0: 0x00007fff60f01fca libsystem_kernel.dylib`__select + 10
+libsystem_kernel.dylib`__select:
+-&gt;  0x7fff60f01fca &lt;+10&gt;: jae    0x7fff60f01fd4            ; &lt;+20&gt;
+    0x7fff60f01fcc &lt;+12&gt;: movq   %rax, %rdi
+    0x7fff60f01fcf &lt;+15&gt;: jmp    0x7fff60ef90dd            ; cerror
+    0x7fff60f01fd4 &lt;+20&gt;: retq
+(lldb) </code></pre>
+<p>From there, to get it to breakpoint on the specific line, I typed:</p>
+<pre class="c"><code>(lldb) b bitwise_distance.c:674
+Breakpoint 1: where = poppr.so`.omp_outlined..4 + 1471 at bitwise_distance.c:674, address = 0x000000010f72435f
+(lldb) c
+Process 10723 resuming
+
+&gt; </code></pre>
+<p>From there, when I ran <code>bitwise.dist()</code> it always stopped whenever it ran into that point:</p>
+<pre class="c"><code>Process 11033 stopped
+* thread #4: tid = 0x84b9a, 0x0000000100f11394 poppr.so`.omp_outlined..4(.global_tid.=0x00007000058fcd70, .bound_tid.=0x00007000058fcd68, i=0x00007ffeefbfcafc, R_gen=0x00007ffeefbfcb70, R_chr_symbol=0x00007ffeefbfcb80, R_nap_symbol=0x00007ffeefbfcb78, nap1_length=0x00007ffeefbfcb34, R_nap1=0x00007ffeefbfcb40, chr_length=0x00007ffeefbfcb2c, R_chr1_1=0x00007ffeefbfcb60, R_chr1_2=0x00007ffeefbfcb58, missing_match=0x00007ffeefbfcb18, only_differences=0x00007ffeefbfcb14, distance_matrix=0x00007ffeefbfcae8) + 1428 at bitwise_distance.c:674, stop reason = breakpoint 1.1
+    frame #0: 0x0000000100f11394 poppr.so`.omp_outlined..4(.global_tid.=0x00007000058fcd70, .bound_tid.=0x00007000058fcd68, i=0x00007ffeefbfcafc, R_gen=0x00007ffeefbfcb70, R_chr_symbol=0x00007ffeefbfcb80, R_nap_symbol=0x00007ffeefbfcb78, nap1_length=0x00007ffeefbfcb34, R_nap1=0x00007ffeefbfcb40, chr_length=0x00007ffeefbfcb2c, R_chr1_1=0x00007ffeefbfcb60, R_chr1_2=0x00007ffeefbfcb58, missing_match=0x00007ffeefbfcb18, only_differences=0x00007ffeefbfcb14, distance_matrix=0x00007ffeefbfcae8) + 1428 at bitwise_distance.c:674
+   671            }
+   672            // Find the index of the next missing value in sample i.
+   673            next_missing_index_i++;
+-&gt; 674            next_missing_i = (int)INTEGER(R_nap1)[next_missing_index_i] - 1;
+   675          }
+   676          // Repeat for j
+   677          while(next_missing_index_j &lt; nap2_length &amp;&amp; next_missing_j &lt; (k+1)*8 &amp;&amp; next_missing_j &gt;= (k*8))
+(lldb)</code></pre>
+<p>I could get a glimpse of all the variables if I typed <code>frame variable</code> (you can also type “fr v”):</p>
+<pre class="c"><code>(lldb) frame variable
+(int *const __restrict) .global_tid. = 0x00007000058fcd70
+(int *const __restrict) .bound_tid. = 0x00007000058fcd68
+(int &amp;) i = 0x00007ffeefbfcafc (&amp;i = 1)
+(SEXP &amp;) R_gen = 0x00007ffeefbfcb70 (&amp;R_gen = 0x000000010fc616a0)
+(SEXP &amp;) R_chr_symbol = 0x00007ffeefbfcb80 (&amp;R_chr_symbol = 0x000000010bab7578)
+(SEXP &amp;) R_nap_symbol = 0x00007ffeefbfcb78 (&amp;R_nap_symbol = 0x00000001024126d0)
+(int &amp;) nap1_length = 0x00007ffeefbfcb34 (&amp;nap1_length = 2)
+(SEXP &amp;) R_nap1 = 0x00007ffeefbfcb40 (&amp;R_nap1 = 0x000000010dc52e78)
+(int &amp;) chr_length = 0x00007ffeefbfcb2c (&amp;chr_length = 4)
+(SEXP &amp;) R_chr1_1 = 0x00007ffeefbfcb60 (&amp;R_chr1_1 = 0x000000010dc53238)
+(SEXP &amp;) R_chr1_2 = 0x00007ffeefbfcb58 (&amp;R_chr1_2 = 0x000000010dc51cf8)
+(int &amp;) missing_match = 0x00007ffeefbfcb18 (&amp;missing_match = 1)
+(int &amp;) only_differences = 0x00007ffeefbfcb14 (&amp;only_differences = 0)
+(int **&amp;) distance_matrix = 0x00007ffeefbfcae8: {
+  &amp;distance_matrix = 0x0000000100a6fa50
+}
+(int) .omp.iv = 0
+(int) .capture_expr. = 1
+(int) .capture_expr. = 0
+(int) j = 0
+(int) .omp.lb = 0
+(int) .omp.ub = 0
+(int) .omp.stride = 1
+(int) .omp.is_last = 1
+(int) j = 0
+(int) cur_distance = 0
+(SEXP) R_chr2_1 = 0x000000010fa681d8
+(SEXP) R_chr2_2 = 0x000000010dfe1898
+(SEXP) R_nap2 = 0x000000010c7db4e0
+(int) next_missing_index_j = -1
+(int) next_missing_j = -1
+(int) next_missing_index_i = 1
+(int) next_missing_i = 4
+(zygosity) set_1 = (c1 = &#39;\0&#39;, c2 = &#39;\x87&#39;, ch = &#39;\x87&#39;, cd = &#39;\0&#39;, cr = &#39;x&#39;)
+(zygosity) set_2 = (c1 = &#39;@&#39;, c2 = &#39;�&#39;, ch = &#39;�&#39;, cd = &#39;@&#39;, cr = &#39;\x03&#39;)
+(char) tmp_sim_set = &#39;\x94&#39;
+(int) k = 0
+(char) mask = &#39;\x10&#39;
+(int) nap2_length = 0</code></pre>
+<blockquote>
+<p>Notice how we have a lot of weird characters up there? That’s because this function deals with data stored in bits. <a href="https://lldb.llvm.org/varformats.html">You can actually tell lldb to display characters as bits</a>:</p>
+<pre class="c"><code>type format add --format binary char</code></pre>
+<p>Now the values can actually be interpreted!</p>
+<pre class="c"><code>(zygosity) set_1 = (c1 = 0b00000000, c2 = 0b10000111, ch = 0b10000111, cd = 0b00000000, cr = 0b01111000)
+(zygosity) set_2 = (c1 = 0b01000000, c2 = 0b11111100, ch = 0b10111100, cd = 0b01000000, cr = 0b00000011)
+(char) tmp_sim_set = 0b10010100
+(int) k = 0
+(char) mask = 0b00010000</code></pre>
+</blockquote>
+<p>We can see that <code>next_missing_i</code> is set to 4, <code>next_missing_index_i</code> is currently set to 1 and the <code>nap1_length</code> is set to 2. If we type “n”, it will execute the current line. We can then see the new value of <code>next_missing_i</code></p>
+<pre class="c"><code>(lldb) print next_missing_i
+(int) $1 = 17</code></pre>
+<p>Instead of going line by line, you can type “c” to go to the next breakpoint and execute the code there. This happens to be the point of the error. You can see that if we execute line 674 and then print <code>next_missing_i</code>:</p>
+<pre class="c"><code>(lldb) print next_missing_i
+(int) $2 = 536870927</code></pre>
+<p>The data I fed into this function only has 24 possible positions, so this huge number is the memory leak.</p>
+</div>
+<div id="solution" class="section level1">
+<h1>Solution</h1>
+<p>The solution I eventually came up with was to wrap it in another check:</p>
+<pre class="c"><code>  // Find the index of the next missing value in sample i.
+  next_missing_index_i++; 
+  if (next_missing_index_i &lt; nap1_length){
+    next_missing_i = (int)INTEGER(R_nap1)[next_missing_index_i] - 1;
+  }</code></pre>
+<p>Is it elegant? No. Did it get the job done? Yes. I had originally moved the assignment step to the top of the loop, but had tests fail that way and I couldn’t figure out what was going on with them.</p>
+</div>
+<div id="lesson-learned" class="section level1">
+<h1>Lesson learned</h1>
+<p>This error has been in the code for four years. It wasn’t particularly malicious since it wasn’t overwriting this space of memory, but it’s the kind of error that could only be detected by these address sanitizers routinely used by the CRAN team. In fact, the Valgrind sanitizer had pointed out this very error, but, I had (wrongly) thought that this was due to the fact that <a href="https://github.com/grunwaldlab/poppr/blob/379c42ba52afb9e2ce2bbf9141bf540cb16d0a37/cran-comments.md#valgrind">it was in the middle of a parallel processing statement since the memory was only “possibly” lost</a>. Sometimes these errors are obvious and other times it takes you over a year and a half to find these bugs and squish them).</p>
+</div>
+
+                        </div>
+                        
+
+                        
+
+
+                        
+<nav id="article-nav">
+  
+    <a href="/blog/poppr-2-6-0-better-network-plotting/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Poppr 2.6.0: Better Network Plotting</div>
+    </a>
+    
+
+    
+
+</nav>
+
+
+
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zkamvar" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About me</h4>
+
+            I am a population geneticist, data scientist, plant pathologist, and R package developer working at the University of Nebraska-Lincoln.
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/i-c-bugs/">
+                          
+                            <img src="/img/banners/Halyomorpha_halys_lab.jpg" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/i-c-bugs/">I C Bugs</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/poppr-2-6-0-better-network-plotting/">
+                          
+                            <img src="/img/banners/msn.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/poppr-2-6-0-better-network-plotting/">Poppr 2.6.0: Better Network Plotting</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="/blog/using-a-custom-library-in-r/">
+                          
+                            <img src="/img/banners/smashing-library.gif" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="/blog/using-a-custom-library-in-r/">Using a custom library in R</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            
+            <div class="social-entries">
+
+              <div class="social-entry">
+                <a href="https://twitter.com/zkamvar"><i class="fa fa-twitter fa-fw"></i>@zkamvar</a>
+              </div>
+              <div class="social-entry">
+                <a href="https://github.com/zkamvar"><i class="fa fa-github fa-fw"></i>zkamvar</a>
+              </div>
+
+              <div class="social-entry">
+                <a href="https://stackoverflow.com/users/2752888/znk"><i class="fa fa-stack-overflow fa-fw"></i>2752888/znk</a>
+              </div>
+              <div class="social-entry">
+                <a href="https://www.researchgate.net/profile/Zhian_Kamvar"><i class="fa fa-pencil fa-fw"></i>Zhian_Kamvar</a>
+              </div>
+
+              <div class="social-entry">
+                <i class="fa fa-envelope fa-fw"></i>&nbsp;zkamvar@gmail.com
+              </div>
+              <div class="social-entry">
+                <i class="fa fa-mobile fa-fw"></i>&nbsp;&#43;1 (541) 286-0187
+              </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+</footer>
+
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+
+
+
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-right">
+              Built with <a href="https://github.com/rstudio/blogdown">blogdown</a>
+              and <a href="https://gohugo.io">hugo</a>. 
+
+              <br/>
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-60561808-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<script src="/js/hpneo.gmaps.js"></script>
+<script src="/js/gmaps.init.js"></script>
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+    
+
+  </body>
+</html>

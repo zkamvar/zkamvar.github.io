@@ -6,10 +6,21 @@
     <description>Recent content on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I C Bugs</title>
+      <link>/blog/i-c-bugs/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/i-c-bugs/</guid>
+      <description>A Brown marmorated stink bug female from a laboratory colony on a common bean leaf, photographed in the laboratory of Fondazione Edmund Mach, Italy.
+URL: https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_lab.jpg   Occasionally, I hear people complain about the strict policies of CRAN, but I for one quite apprecieate them, especially when dealing with hidden errors in compiled code.
+Not twenty-four hours after I had submitted poppr version 2.6.0 to CRAN did I receive an email from none other than Brian D.</description>
+    </item>
     
     <item>
       <title>Poppr 2.6.0: Better Network Plotting</title>
