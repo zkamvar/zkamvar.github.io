@@ -6,10 +6,20 @@
     <description>Recent content in R on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Splitting Hairs: *poppr* version 2.7</title>
+      <link>/blog/poppr-2-7/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/poppr-2-7/</guid>
+      <description>Positive Contact This version of poppr is a direct result of feedback that was prompted by my own feedback.
+I’m always grateful for eagle-eyed users of poppr who report when things are going awry. Recently, I had noticed that poppr was cited in a recent review on the analysis of polyploid genetic data (Meirmans, Liu, and Tienderen 2018) that highlighted some limitations with established methods, including Bruvo’s distance (Bruvo et al.</description>
+    </item>
     
     <item>
       <title>I C Bugs</title>

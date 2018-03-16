@@ -6,10 +6,20 @@
     <description>Recent content on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Splitting Hairs: *poppr* version 2.7</title>
+      <link>/blog/poppr-2-7/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/poppr-2-7/</guid>
+      <description>Positive Contact This version of poppr is a direct result of feedback that was prompted by my own feedback.
+I’m always grateful for eagle-eyed users of poppr who report when things are going awry. Recently, I had noticed that poppr was cited in a recent review on the analysis of polyploid genetic data (Meirmans, Liu, and Tienderen 2018) that highlighted some limitations with established methods, including Bruvo’s distance (Bruvo et al.</description>
+    </item>
     
     <item>
       <title>I C Bugs</title>
@@ -70,9 +80,10 @@ Our massive Sclerotinia pop gen study out as preprint today @PeerJPreprints http
       <pubDate>Sun, 24 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/pubs/</guid>
-      <description>Kamvar ZN, Amaradasa BS, Jhala R, McCoy S, Steadman JR, Everhart SE. (2017) Population structure and phenotypic variation of Sclerotinia sclerotiorum from dry bean (Phaseolus vulgaris) in the United States. PeerJ 5:e4152 doi: 10.7717/peerj.4152
-Grünwald NJ, Everhart SE, Knaus BJ, Kamvar ZN. (2017) Best practices for population genetic analyses. Phytopathology 107:9 doi: 10.1094/PHYTO-12-16-0425-RVW
-Jombart T, Archer F, Schliep K, Kamvar ZN, Harris R, Paradis E, Goudet J, Lapp H (2017). apex: phylogenetics with multiple genes.</description>
+      <description>Pre-Prints  These publications have not yet been peer-reviewed, but have been submitted.
+ Kamvar ZN, Everhart SE. (2018) Something in the agar does not compute: On the discriminatory power of mycelial compatibility in Sclerotinia sclerotiorum. PeerJ Preprints 6:e26670v1 doi: 10.7287/peerj.preprints.26670v1
+ simulations: https://github.com/everhartlab/sclerotinia-review-2017
+ doi: 10.17605/OSF.IO/B8VD3/  Pannullo A, Kamvar ZN, Miorini TJJ, Steadman JR, Everhart SE. (2018) Genetic variation and structure of Sclerotinia sclerotiorum populations from soybean in Brazil.</description>
     </item>
     
     <item>
