@@ -6,10 +6,20 @@
     <description>Recent content on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am a computational biologist currently working a post-doctoral researcher in Thibaut Jombart&amp;rsquo;s group at Imperial College in London, UK where I focus on developing tools and resources for outbreak response analytics.
+I grew up in Cupertino, CA, but got my undergraduate degree in Biology at Truman State University in Kirksville, MO where I had a research opportunity to work on understanding the regulation of shoot apical meristem development in maize.</description>
+    </item>
     
     <item>
       <title>Splitting Hairs: *poppr* version 2.7</title>
@@ -95,16 +105,6 @@ Our massive Sclerotinia pop gen study out as preprint today @PeerJPreprints http
       <description>As I was preparing to push a new version of poppr to CRAN , this tweet (appropriately) came across my feed:
 Mistakes happen in science. What matters is what you do next. Anyone want to share a story of a mistake &amp;amp; how they handled it?
 &amp;mdash; Adrienne Porter Felt (@__apf__) September 10, 2017  The reason I was updating poppr was to fix a mistake I had made a few years ago.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>I am a computational biologist currently working a post-doctoral researcher in the lab of Dr. Sydney E. Everhart at the Department of Plant Pathology at University of Nebraska-Lincoln. My research focus seeks to understand the mechanisms that drive the evolution of clonal plant pathogens.
-I grew up in Cupertino, CA, but got my undergraduate degree in Biology at Truman State University in Kirksville, MO where I had a research opportunity to work on understanding the regulation of shoot apical meristem development in maize.</description>
     </item>
     
     <item>
