@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bruvo on Zhian N. Kamvar</title>
-    <link>/tags/bruvo/</link>
+    <link>https://zkamvar.github.io/tags/bruvo/</link>
     <description>Recent content in Bruvo on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/bruvo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zkamvar.github.io/tags/bruvo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Squishing a big bad bug</title>
-      <link>/blog/squish/</link>
+      <link>https://zkamvar.github.io/blog/squish/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/squish/</guid>
+      <guid>https://zkamvar.github.io/blog/squish/</guid>
       <description>As I was preparing to push a new version of poppr to CRAN , this tweet (appropriately) came across my feed:
 Mistakes happen in science. What matters is what you do next. Anyone want to share a story of a mistake &amp;amp; how they handled it?
 &amp;mdash; Adrienne Porter Felt (@__apf__) September 10, 2017  The reason I was updating poppr was to fix a mistake I had made a few years ago.</description>

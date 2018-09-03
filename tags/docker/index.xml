@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Zhian N. Kamvar</title>
-    <link>/tags/docker/</link>
+    <link>https://zkamvar.github.io/tags/docker/</link>
     <description>Recent content in Docker on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zkamvar.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Preprint Day!</title>
-      <link>/blog/preprint-day/</link>
+      <link>https://zkamvar.github.io/blog/preprint-day/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/preprint-day/</guid>
+      <guid>https://zkamvar.github.io/blog/preprint-day/</guid>
       <description>Today, we finally published a preprint for a manuscript that spans over 15 years of data 🎉!
 Our massive Sclerotinia pop gen study out as preprint today @PeerJPreprints https://t.co/O85hUURi2s #AgriculturalScience #Genetics #Mycology
 &amp;mdash; Sydney Everhart 🍄 (@SydneyEverhart) October 3, 2017  Here’s the citation:
