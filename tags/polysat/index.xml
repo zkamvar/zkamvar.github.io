@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Polysat on Zhian N. Kamvar</title>
-    <link>https://zkamvar.github.io/tags/polysat/</link>
+    <link>/tags/polysat/</link>
     <description>Recent content in Polysat on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zkamvar.github.io/tags/polysat/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/polysat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Splitting Hairs: *poppr* version 2.7</title>
-      <link>https://zkamvar.github.io/blog/poppr-2-7/</link>
+      <link>/blog/poppr-2-7/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/blog/poppr-2-7/</guid>
+      <guid>/blog/poppr-2-7/</guid>
       <description>Positive Contact This version of poppr is a direct result of feedback that was prompted by my own feedback.
 I’m always grateful for eagle-eyed users of poppr who report when things are going awry. Recently, I had noticed that poppr was cited in a recent review on the analysis of polyploid genetic data (Meirmans, Liu, and Tienderen 2018) that highlighted some limitations with established methods, including Bruvo’s distance (Bruvo et al.</description>
     </item>

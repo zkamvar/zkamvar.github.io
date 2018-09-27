@@ -3,265 +3,264 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zkamvar.github.io/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2018-08-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/poppr-2-7/</loc>
+    <loc>/blog/poppr-2-7/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/i-c-bugs/</loc>
+    <loc>/blog/i-c-bugs/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/poppr-2-6-0-better-network-plotting/</loc>
+    <loc>/blog/poppr-2-6-0-better-network-plotting/</loc>
     <lastmod>2018-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/using-a-custom-library-in-r/</loc>
+    <loc>/blog/using-a-custom-library-in-r/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/installing-the-abyss/</loc>
+    <loc>/blog/installing-the-abyss/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/preprint-day/</loc>
+    <loc>/blog/preprint-day/</loc>
     <lastmod>2017-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/pubs/</loc>
-    <lastmod>2017-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zkamvar.github.io/blog/squish/</loc>
+    <loc>/blog/squish/</loc>
     <lastmod>2017-09-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/20-000-downloads-under-the-c-ran/</loc>
+    <loc>/blog/20-000-downloads-under-the-c-ran/</loc>
     <lastmod>2016-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/recreating-figure-3/</loc>
+    <loc>/blog/recreating-figure-3/</loc>
     <lastmod>2016-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/.libpaths/</loc>
+    <loc>/tags/.libpaths/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/.renviron/</loc>
+    <loc>/tags/.renviron/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/abyss/</loc>
+    <loc>/tags/abyss/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/algorithms/</loc>
+    <loc>/tags/algorithms/</loc>
     <lastmod>2017-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/amova/</loc>
+    <loc>/tags/amova/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/bruvo/</loc>
+    <loc>/tags/bruvo/</loc>
     <lastmod>2017-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/bug/</loc>
+    <loc>/tags/bug/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/c/</loc>
+    <loc>/tags/c/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/clang/</loc>
+    <loc>/tags/clang/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/command-line/</loc>
+    <loc>/tags/command-line/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/continuous-integration/</loc>
+    <loc>/tags/continuous-integration/</loc>
     <lastmod>2017-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/cran/</loc>
+    <loc>/tags/cran/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/cranlogs/</loc>
+    <loc>/tags/cranlogs/</loc>
     <lastmod>2016-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/docker/</loc>
+    <loc>/tags/docker/</loc>
     <lastmod>2017-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/environment-variable/</loc>
+    <loc>/tags/environment-variable/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/categories/example/</loc>
+    <loc>/categories/example/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/ggplot2/</loc>
+    <loc>/tags/ggplot2/</loc>
     <lastmod>2016-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/github/</loc>
+    <loc>/tags/github/</loc>
     <lastmod>2017-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/categories/grad-school/</loc>
+    <loc>/categories/grad-school/</loc>
     <lastmod>2016-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/hpc/</loc>
+    <loc>/tags/hpc/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/library/</loc>
+    <loc>/tags/library/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/lldb/</loc>
+    <loc>/tags/lldb/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/multilocus-genotype/</loc>
+    <loc>/tags/multilocus-genotype/</loc>
     <lastmod>2016-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/open-science-framework/</loc>
+    <loc>/tags/open-science-framework/</loc>
     <lastmod>2017-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/polysat/</loc>
+    <loc>/tags/polysat/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/poppr/</loc>
+    <loc>/tags/poppr/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/preprint/</loc>
+    <loc>/tags/preprint/</loc>
     <lastmod>2017-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/categories/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/reproducibility/</loc>
+    <loc>/tags/reproducibility/</loc>
     <lastmod>2017-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/categories/science/</loc>
+    <loc>/pubs/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/science/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zkamvar.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2018-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

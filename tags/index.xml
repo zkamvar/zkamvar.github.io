@@ -2,255 +2,255 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Zhian N. Kamvar</title>
-    <link>https://zkamvar.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zkamvar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>.Libpaths</title>
-      <link>https://zkamvar.github.io/tags/.libpaths/</link>
+      <link>/tags/.libpaths/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/.libpaths/</guid>
+      <guid>/tags/.libpaths/</guid>
       <description></description>
     </item>
     
     <item>
       <title>.Renviron</title>
-      <link>https://zkamvar.github.io/tags/.renviron/</link>
+      <link>/tags/.renviron/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/.renviron/</guid>
+      <guid>/tags/.renviron/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Abyss</title>
-      <link>https://zkamvar.github.io/tags/abyss/</link>
+      <link>/tags/abyss/</link>
       <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/abyss/</guid>
+      <guid>/tags/abyss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithms</title>
-      <link>https://zkamvar.github.io/tags/algorithms/</link>
+      <link>/tags/algorithms/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/algorithms/</guid>
+      <guid>/tags/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Amova</title>
-      <link>https://zkamvar.github.io/tags/amova/</link>
+      <link>/tags/amova/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/amova/</guid>
+      <guid>/tags/amova/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bruvo</title>
-      <link>https://zkamvar.github.io/tags/bruvo/</link>
+      <link>/tags/bruvo/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/bruvo/</guid>
+      <guid>/tags/bruvo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bug</title>
-      <link>https://zkamvar.github.io/tags/bug/</link>
+      <link>/tags/bug/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/bug/</guid>
+      <guid>/tags/bug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>C</title>
-      <link>https://zkamvar.github.io/tags/c/</link>
+      <link>/tags/c/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/c/</guid>
+      <guid>/tags/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clang</title>
-      <link>https://zkamvar.github.io/tags/clang/</link>
+      <link>/tags/clang/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/clang/</guid>
+      <guid>/tags/clang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Command Line</title>
-      <link>https://zkamvar.github.io/tags/command-line/</link>
+      <link>/tags/command-line/</link>
       <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/command-line/</guid>
+      <guid>/tags/command-line/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Continuous Integration</title>
-      <link>https://zkamvar.github.io/tags/continuous-integration/</link>
+      <link>/tags/continuous-integration/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/continuous-integration/</guid>
+      <guid>/tags/continuous-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cran</title>
-      <link>https://zkamvar.github.io/tags/cran/</link>
+      <link>/tags/cran/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/cran/</guid>
+      <guid>/tags/cran/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cranlogs</title>
-      <link>https://zkamvar.github.io/tags/cranlogs/</link>
+      <link>/tags/cranlogs/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/cranlogs/</guid>
+      <guid>/tags/cranlogs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://zkamvar.github.io/tags/docker/</link>
+      <link>/tags/docker/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/docker/</guid>
+      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Environment Variable</title>
-      <link>https://zkamvar.github.io/tags/environment-variable/</link>
+      <link>/tags/environment-variable/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/environment-variable/</guid>
+      <guid>/tags/environment-variable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggplot2</title>
-      <link>https://zkamvar.github.io/tags/ggplot2/</link>
+      <link>/tags/ggplot2/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/ggplot2/</guid>
+      <guid>/tags/ggplot2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>https://zkamvar.github.io/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/github/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hpc</title>
-      <link>https://zkamvar.github.io/tags/hpc/</link>
+      <link>/tags/hpc/</link>
       <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/hpc/</guid>
+      <guid>/tags/hpc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Library</title>
-      <link>https://zkamvar.github.io/tags/library/</link>
+      <link>/tags/library/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/library/</guid>
+      <guid>/tags/library/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lldb</title>
-      <link>https://zkamvar.github.io/tags/lldb/</link>
+      <link>/tags/lldb/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/lldb/</guid>
+      <guid>/tags/lldb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multilocus Genotype</title>
-      <link>https://zkamvar.github.io/tags/multilocus-genotype/</link>
+      <link>/tags/multilocus-genotype/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/multilocus-genotype/</guid>
+      <guid>/tags/multilocus-genotype/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Science Framework</title>
-      <link>https://zkamvar.github.io/tags/open-science-framework/</link>
+      <link>/tags/open-science-framework/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/open-science-framework/</guid>
+      <guid>/tags/open-science-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Polysat</title>
-      <link>https://zkamvar.github.io/tags/polysat/</link>
+      <link>/tags/polysat/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/polysat/</guid>
+      <guid>/tags/polysat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Poppr</title>
-      <link>https://zkamvar.github.io/tags/poppr/</link>
+      <link>/tags/poppr/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/poppr/</guid>
+      <guid>/tags/poppr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preprint</title>
-      <link>https://zkamvar.github.io/tags/preprint/</link>
+      <link>/tags/preprint/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/preprint/</guid>
+      <guid>/tags/preprint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://zkamvar.github.io/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reproducibility</title>
-      <link>https://zkamvar.github.io/tags/reproducibility/</link>
+      <link>/tags/reproducibility/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/reproducibility/</guid>
+      <guid>/tags/reproducibility/</guid>
       <description></description>
     </item>
     
