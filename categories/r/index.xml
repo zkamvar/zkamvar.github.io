@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Zhian N. Kamvar</title>
-    <link>/categories/r/</link>
+    <link>https://zkamvar.github.io/categories/r/</link>
     <description>Recent content in R on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zkamvar.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Splitting Hairs: *poppr* version 2.7</title>
-      <link>/blog/poppr-2-7/</link>
+      <link>https://zkamvar.github.io/blog/poppr-2-7/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/poppr-2-7/</guid>
+      <guid>https://zkamvar.github.io/blog/poppr-2-7/</guid>
       <description>Positive Contact This version of poppr is a direct result of feedback that was prompted by my own feedback.
 I’m always grateful for eagle-eyed users of poppr who report when things are going awry. Recently, I had noticed that poppr was cited in a recent review on the analysis of polyploid genetic data (Meirmans, Liu, and Tienderen 2018) that highlighted some limitations with established methods, including Bruvo’s distance (Bruvo et al.</description>
     </item>
     
     <item>
       <title>I C Bugs</title>
-      <link>/blog/i-c-bugs/</link>
+      <link>https://zkamvar.github.io/blog/i-c-bugs/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/i-c-bugs/</guid>
+      <guid>https://zkamvar.github.io/blog/i-c-bugs/</guid>
       <description>A Brown marmorated stink bug female from a laboratory colony on a common bean leaf, photographed in the laboratory of Fondazione Edmund Mach, Italy.
 URL: https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_lab.jpg   Occasionally, I hear people complain about the strict policies of CRAN, but I for one quite apprecieate them, especially when dealing with hidden errors in compiled code.
 Not twenty-four hours after I had submitted poppr version 2.6.0 to CRAN did I receive an email from none other than Brian D.</description>
@@ -34,20 +34,20 @@ Not twenty-four hours after I had submitted poppr version 2.6.0 to CRAN did I re
     
     <item>
       <title>Poppr 2.6.0: Better Network Plotting</title>
-      <link>/blog/poppr-2-6-0-better-network-plotting/</link>
+      <link>https://zkamvar.github.io/blog/poppr-2-6-0-better-network-plotting/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/poppr-2-6-0-better-network-plotting/</guid>
+      <guid>https://zkamvar.github.io/blog/poppr-2-6-0-better-network-plotting/</guid>
       <description>Poppr version 2.6.0 has officially been released on CRAN and should be built for all operating systems within the next few days 🎉. You can check out the NEWS for full details. This release features a new function called boot.ia() to assess how the Index of Association responds to repeat observations (clones). Perhaps the biggest feature is the change in how minimum spanning networks are plotted.
 Minimum spanning networks were originally implemented in poppr by Javier Tabima and I, and since then they’ve gone through some tweaking, eventually including features like reticulation of equivalent paths and a GUI to help construct these networks.</description>
     </item>
     
     <item>
       <title>Using a custom library in R</title>
-      <link>/blog/using-a-custom-library-in-r/</link>
+      <link>https://zkamvar.github.io/blog/using-a-custom-library-in-r/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/using-a-custom-library-in-r/</guid>
+      <guid>https://zkamvar.github.io/blog/using-a-custom-library-in-r/</guid>
       <description>I’ve been using a custom library for R since 2012 and I’ve never looked back. I’ve not seen many tutorials for people do do this through R, so I figured I’d write a quick one.
 Where does your R package library live? You can usually find this out by typing .libPaths() in your R console. If you have an out-of-the-box installation, it will generally be somewhere like:
 C:/Program Files/R/R-3.4.2/library or</description>
@@ -55,10 +55,10 @@ C:/Program Files/R/R-3.4.2/library or</description>
     
     <item>
       <title>Squishing a big bad bug</title>
-      <link>/blog/squish/</link>
+      <link>https://zkamvar.github.io/blog/squish/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/blog/squish/</guid>
+      <guid>https://zkamvar.github.io/blog/squish/</guid>
       <description>As I was preparing to push a new version of poppr to CRAN , this tweet (appropriately) came across my feed:
 Mistakes happen in science. What matters is what you do next. Anyone want to share a story of a mistake &amp;amp; how they handled it?
 &amp;mdash; Adrienne Porter Felt (@__apf__) September 10, 2017  The reason I was updating poppr was to fix a mistake I had made a few years ago.</description>
@@ -66,20 +66,20 @@ Mistakes happen in science. What matters is what you do next. Anyone want to sha
     
     <item>
       <title>20,000 downloads under the C(RAN)</title>
-      <link>/blog/20-000-downloads-under-the-c-ran/</link>
+      <link>https://zkamvar.github.io/blog/20-000-downloads-under-the-c-ran/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog/20-000-downloads-under-the-c-ran/</guid>
+      <guid>https://zkamvar.github.io/blog/20-000-downloads-under-the-c-ran/</guid>
       <description>My R package poppr hit over 20,000 downloads on CRAN. I thought this would be a nice opportunity to briefly talk about what initiated the development. Before that, let’s look at the cumulative number of downloads:
 CRAN you dig it? Thanks to the fantastic cranlogs package, assessing the download history of a package is quite simple (with the caveat that these are logs from the rstudio mirror, so the value is almost always lower than the true value).</description>
     </item>
     
     <item>
       <title>Recreating Figure 3</title>
-      <link>/blog/recreating-figure-3/</link>
+      <link>https://zkamvar.github.io/blog/recreating-figure-3/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog/recreating-figure-3/</guid>
+      <guid>https://zkamvar.github.io/blog/recreating-figure-3/</guid>
       <description>Motivation In February of 2016, I got an email asking if I could provide the code to recreate figure three from my article in Phytopathology on the outbreak of Phytophthora ramorum in Curry County OR from 2001 to 2014 (paywalled, but you can find a copy here).
 While I have the code used for the analysis on github, it’s a lot of stuff to sort through, considering that it was my first foray in attempting a reproducible analysis, so for this post, I’m going to recreate it using current tools.</description>
     </item>
