@@ -122,8 +122,8 @@ While I have the code used for the analysis on github, it’s a lot of stuff to 
       
       <guid>https://zkamvar.github.io/pubs/</guid>
       <description>Pre-Prints  These publications have not yet been peer-reviewed, but have been submitted.
- Moraga P, Dorigatti I, Kamvar ZN, Piatkowski P, Toikkanen SE, Nagraj V, Donnelly CA, and Jombart T epiflows: an R package for risk assessment of travel-related spread of disease [version 1; referees: 2 approved with reservations]. F1000Research 2018, 7:1374 (doi: 10.12688/f1000research.16032.1)
- software: https://github.com/reconhub/epiflows doi: 10.5281/zenodo.1401806  Pannullo A, Kamvar ZN, Miorini TJJ, Steadman JR, Everhart SE.</description>
+ Kamvar ZN, Cai J, Pulliam JRC, Schumacher J, Jombart T. Epidemic curves made easy using the R package incidence [version 1; referees: awaiting peer review]. F1000Research 2019, 8:139. (doi: 10.12688/f1000research.18002.1).
+ software: https://github.com/reconhub/aweek doi: 10.5281/zenodo.1404718  Peer-Reviewed Publications Moraga P, Dorigatti I, Kamvar ZN, Piatkowski P, Toikkanen SE, Nagraj V, Donnelly CA, and Jombart T epiflows: an R package for risk assessment of travel-related spread of disease [version 1; referees: 2 approved with reservations].</description>
     </item>
     
   </channel>
