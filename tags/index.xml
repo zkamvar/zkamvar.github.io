@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>Blog</title>
+      <link>https://zkamvar.github.io/tags/blog/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bruvo</title>
       <link>https://zkamvar.github.io/tags/bruvo/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
@@ -188,6 +197,24 @@
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://zkamvar.github.io/tags/lldb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>https://zkamvar.github.io/tags/meta/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>https://zkamvar.github.io/tags/misc/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/misc/</guid>
       <description></description>
     </item>
     

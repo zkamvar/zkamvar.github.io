@@ -6,10 +6,21 @@
     <description>Recent content on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zkamvar.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>This blog has been gathering dust</title>
+      <link>https://zkamvar.github.io/blog/dusty/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/blog/dusty/</guid>
+      <description>Hoo-boy! It has been a long time since last wrote in this blog and&amp;hellip; well&amp;hellip; a lot has happened1 since then.
+VISA APPLICATION SUCCESSFUL!!!! @Jimmmin AND I ARE MOVING TO LONDON NEXT WEEK!🎉🇬🇧🎉 pic.twitter.com/EnONwDkiB4
+&amp;mdash; Doctorb Zhian N. Kamvar (@ZKamvar) June 15, 2018  I promise that from now on, I will update this blog at least once a week with thoughts or insights I have about R package development, research software engineering, and updates to R packages.</description>
+    </item>
     
     <item>
       <title>About</title>
