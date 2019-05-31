@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bug on Zhian N. Kamvar</title>
-    <link>https://zkamvar.github.io/tags/bug/</link>
-    <description>Recent content in Bug on Zhian N. Kamvar</description>
+    <title>Email on Zhian N. Kamvar</title>
+    <link>https://zkamvar.github.io/tags/email/</link>
+    <description>Recent content in Email on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zkamvar.github.io/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zkamvar.github.io/tags/email/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>https://zkamvar.github.io/blog/forum-over-email/</guid>
       <description>My package, poppr, has been on CRAN for over six years now and it has received more than 400 citations and just north of 70,000 downloads from the RStudio cran mirror. I can think of three reasons why this package has been successful:
  Our lab gave several workshops using our package over the years We have written extensive documentation with both web site and package documentation. I actively maintain and answer the vast majority of questions that appear on the poppr google group.</description>
-    </item>
-    
-    <item>
-      <title>I C Bugs</title>
-      <link>https://zkamvar.github.io/blog/i-c-bugs/</link>
-      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/blog/i-c-bugs/</guid>
-      <description>A Brown marmorated stink bug female from a laboratory colony on a common bean leaf, photographed in the laboratory of Fondazione Edmund Mach, Italy.
-URL: https://commons.wikimedia.org/wiki/File:Halyomorpha_halys_lab.jpg   Occasionally, I hear people complain about the strict policies of CRAN, but I for one quite apprecieate them, especially when dealing with hidden errors in compiled code.
-Not twenty-four hours after I had submitted poppr version 2.6.0 to CRAN did I receive an email from none other than Brian D.</description>
     </item>
     
   </channel>

@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zkamvar.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ask developers questions over forums, not emails</title>
+      <link>https://zkamvar.github.io/blog/forum-over-email/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/blog/forum-over-email/</guid>
+      <description>My package, poppr, has been on CRAN for over six years now and it has received more than 400 citations and just north of 70,000 downloads from the RStudio cran mirror. I can think of three reasons why this package has been successful:
+ Our lab gave several workshops using our package over the years We have written extensive documentation with both web site and package documentation. I actively maintain and answer the vast majority of questions that appear on the poppr google group.</description>
+    </item>
     
     <item>
       <title>This blog has been gathering dust</title>

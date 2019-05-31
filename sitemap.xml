@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zkamvar.github.io/blog/forum-over-email/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zkamvar.github.io/blog/dusty/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
@@ -95,7 +100,7 @@
   
   <url>
     <loc>https://zkamvar.github.io/blog/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,7 +112,7 @@
   
   <url>
     <loc>https://zkamvar.github.io/tags/bug/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,6 +136,12 @@
   <url>
     <loc>https://zkamvar.github.io/tags/command-line/</loc>
     <lastmod>2017-10-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zkamvar.github.io/tags/contact/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,6 +170,12 @@
   </url>
   
   <url>
+    <loc>https://zkamvar.github.io/tags/email/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://zkamvar.github.io/tags/environment-variable/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -171,6 +188,12 @@
   </url>
   
   <url>
+    <loc>https://zkamvar.github.io/tags/forum/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://zkamvar.github.io/tags/ggplot2/</loc>
     <lastmod>2016-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -179,6 +202,12 @@
   <url>
     <loc>https://zkamvar.github.io/tags/github/</loc>
     <lastmod>2017-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zkamvar.github.io/categories/good-practice/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -262,7 +291,7 @@
   
   <url>
     <loc>https://zkamvar.github.io/categories/r/</loc>
-    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -290,7 +319,7 @@
   
   <url>
     <loc>https://zkamvar.github.io/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
