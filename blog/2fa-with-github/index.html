@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Things I Learned About 2-Factor Authentication on GitHub</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="r">
+  
+
+  
+  <meta name="description" content="Zhian N. Kamvar">
+  
+
+  <meta name="generator" content="Hugo 0.43" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="/lib/gallery/css/blueimp-gallery.min.css">
+
+  
+  <link href="https://zkamvar.github.io/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="https://zkamvar.github.io/css/style.violet.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+  
+  <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css">
+  <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+  <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+  <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+  
+
+
+  
+  <link href="https://zkamvar.github.io/css/custom.css" rel="stylesheet">
+
+  
+    
+
+  
+  <link rel="shortcut icon" href="https://zkamvar.github.io/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://zkamvar.github.io/img/apple-touch-icon.png" />
+  
+
+  <link href="https://zkamvar.github.io/css/owl.carousel.css" rel="stylesheet">
+  <link href="https://zkamvar.github.io/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://zkamvar.github.io/index.xml" type="application/rss+xml" title="Zhian N. Kamvar">
+
+  
+  <meta property="og:title" content="Things I Learned About 2-Factor Authentication on GitHub" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/blog/2fa-with-github//" />
+  <meta property="og:image" content="img/logo.png" />
+  <script src="https://hypothes.is/embed.js" async></script>
+  
+  
+
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://zkamvar.github.io/">
+                    <img src="https://zkamvar.github.io/img/logo.png" alt="Things I Learned About 2-Factor Authentication on GitHub logo" class="hidden-xs hidden-sm">
+                    <img src="https://zkamvar.github.io/img/logo-small.png" alt="Things I Learned About 2-Factor Authentication on GitHub logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Things I Learned About 2-Factor Authentication on GitHub - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about">About</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/pubs">Publications</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="https://github.com/zkamvar/CV/blob/master/ZNK_CV.pdf">CV</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-10" id="blog-post">
+
+                        <h2>Things I Learned About 2-Factor Authentication on GitHub</h2>
+
+                        <span class="article-duration">3 min read</span>
+                        
+                        <div class="article-date">
+  <span>
+   Zhian N. Kamvar - 
+
+  2019-06-06
+  </span>
+
+  <span class="article-toolbar">
+    
+    <a href="/blog/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
+    
+
+    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i></a>
+
+    <a href="https://twitter.com/home?status=Things&#43;I&#43;Learned&#43;About&#43;2-Factor&#43;Authentication&#43;on&#43;GitHub&#43;https%3A%2F%2Fzkamvar.github.io%2Fblog%2F2fa-with-github%2F&#43;via&#43;%40zkamvar" target="_blank">
+      <i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i>
+    </a>
+
+    
+    
+    <a href="https://github.com/zkamvar/blog-source/edit/master/content/blog/2019-06-06-2fa-with-github.md"><i class="fa fa-pencil-square-o" aria-hidden="true" ></i></a>
+    
+
+  </span>
+
+</div>
+
+
+                        
+
+
+<p class="meta-tags">
+
+  
+  <a href="/tags/command-line" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> command-line</a>
+  
+  <a href="/tags/2fa" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> 2fa</a>
+  
+  <a href="/tags/https" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> https</a>
+  
+  <a href="/tags/ssh" class="post-taxonomy-tag"> <i class="fa fa-tags fa-fw"></i> ssh</a>
+  
+
+</p>
+
+
+
+
+                        <div id="post-content">
+                          
+
+<p>Since the end of 2018, I&rsquo;ve been a part of a collaboration between <a href="https://www.repidemicsconsortium.org">RECON</a> and
+<a href="https://msf.org">MSF</a> called the <a href="https://blogs.msf.org/bloggers/larissa/innovation-introducing-r4epis">R4EPIs initiative</a> where we are trying to integrate a more
+standardized workflow of R for field epidemiologists so that it can be more
+cost-effective (no license fees) and troubleshooting among epidemiologists can
+be more effective. We have a repository to host templates for automated
+situation reports at <a href="https://github.com/R4EPI/sitrep">https://github.com/R4EPI/sitrep</a>. When we created the
+GitHub organisation, we wanted to make sure that the code being submitted to the
+repository was genuinely authored by the person and didn&rsquo;t contain malware from
+a hijacked account<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>, so we <a href="https://help.github.com/en/articles/requiring-two-factor-authentication-in-your-organization">required 2-factor authentication</a> for the R4EPI
+github organisation from the start.</p>
+
+<h3 id="use-the-ssh-protocol-with-github-if-you-use-2fa">Use the SSH protocol with GitHub if you use 2FA</h3>
+
+<p>If things went smoothly, I wouldn&rsquo;t be writing a blog post about this. The main
+hiccup here was not the 2-factor authentication part. Apps like <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_us">Google
+Authenticator</a> or <a href="https://play.google.com/store/apps/details?id=com.authy.authy">Authy</a> make it really easy to set this up by allowing you to
+download an app and scan a QR code with your phone camera to set it up. The
+roadblocks came from using git on the command line.</p>
+
+<p>When users set up git on their computer, GitHub recommends that they <a href="https://help.github.com/en/articles/which-remote-url-should-i-use">use the
+https protocol</a> for various reasons, but partially because this is the easiest
+to set up. The problem is that if you have 2-factor authentication set up, even
+if you have a <a href="https://help.github.com/en/articles/caching-your-github-password-in-git">credential helper</a> to cache your password, that&rsquo;s only one part
+of the 2-factor authentication. You will still need to authenticate yourself
+every single time you pull and push.</p>
+
+<p>To solve this, we told our members to <a href="https://help.github.com/en/articles/connecting-to-github-with-ssh">use the ssh protocol</a>. This is a bit more
+involved because the user has to interact with the command line, but there are
+several good walkthroughs, including the extremely helpful <a href="https://happygitwithr.com/ssh-keys.html">happy git with R by
+Jenny Bryan</a>. When you have an SSH key, you are telling GitHub that you trust
+that particular machine and don&rsquo;t need any secondary authentication if code is
+coming from there. One of the things I like about SSH keys is the fact that you
+can remove them from GitHub if your laptop gets stolen/repurposed.</p>
+
+<h3 id="make-sure-you-have-your-backups">Make sure you have your backups</h3>
+
+<p>When I started using 2fa, I used both an authenticator app and a phone number.
+This worked great until the day that I tried to replace the battery on my phone
+and ended up damaging the screen. It&rsquo;s no surprise that my 2fa no longer worked
+for me when I couldn&rsquo;t access the only place I had the secondary authentication.
+Nowadays, I have a <a href="https://www.yubico.com/">YubiKey</a> on my keychain, one at home, and a set of recovery
+codes in a safe place in case I ever lose my phone.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><p>the risk of this is low, but when this involves code that will handle
+  epidemic data, it&rsquo;s better to be safe than sorry.</p>
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+                        </div>
+                        
+
+                        
+
+
+                        
+<nav id="article-nav">
+  
+    <a href="/blog/forum-over-email/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Ask developers questions over forums, not emails</div>
+    </a>
+    
+
+    
+
+</nav>
+
+
+
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "zkamvar" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About me</h4>
+
+            I am a population geneticist, data scientist, plant pathologist, and R package developer working at Imperial College, London
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://zkamvar.github.io/blog/2fa-with-github/">
+                          
+                            <img src="https://zkamvar.github.io/img/placeholder.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://zkamvar.github.io/blog/2fa-with-github/">Things I Learned About 2-Factor Authentication on GitHub</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://zkamvar.github.io/blog/forum-over-email/">
+                          
+                            <img src="https://zkamvar.github.io/img/placeholder.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://zkamvar.github.io/blog/forum-over-email/">Ask developers questions over forums, not emails</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://zkamvar.github.io/blog/dusty/">
+                          
+                            <img src="https://zkamvar.github.io/img/placeholder.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://zkamvar.github.io/blog/dusty/">This blog has been gathering dust</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            
+            <div class="social-entries">
+
+              <div class="social-entry">
+                <a href="https://twitter.com/zkamvar"><i class="fa fa-twitter fa-fw"></i>@zkamvar</a>
+              </div>
+              <div class="social-entry">
+                <a href="https://github.com/zkamvar"><i class="fa fa-github fa-fw"></i>zkamvar</a>
+              </div>
+
+              <div class="social-entry">
+                <a href="https://stackoverflow.com/users/2752888/znk"><i class="fa fa-stack-overflow fa-fw"></i>2752888/znk</a>
+              </div>
+              <div class="social-entry">
+                <a href="https://www.researchgate.net/profile/Zhian_Kamvar"><i class="fa fa-pencil fa-fw"></i>Zhian_Kamvar</a>
+              </div>
+
+              <div class="social-entry">
+                <i class="fa fa-envelope fa-fw"></i>&nbsp;zkamvar@gmail.com
+              </div>
+              <div class="social-entry">
+                <i class="fa fa-mobile fa-fw"></i>&nbsp;&#43;44 7444 840264
+              </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+</footer>
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-right">
+              Built with <a href="https://github.com/rstudio/blogdown">blogdown</a>
+              and <a href="https://gohugo.io">hugo</a>. 
+
+              <br/>
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-60561808-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<script src="https://zkamvar.github.io/js/hpneo.gmaps.js"></script>
+<script src="https://zkamvar.github.io/js/gmaps.init.js"></script>
+<script src="https://zkamvar.github.io/js/front.js"></script>
+
+
+<script src="https://zkamvar.github.io/js/owl.carousel.min.js"></script>
+
+
+    
+
+  </body>
+</html>
