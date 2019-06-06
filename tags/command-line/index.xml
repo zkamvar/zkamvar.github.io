@@ -6,10 +6,19 @@
     <description>Recent content in Command Line on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zkamvar.github.io/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Things I Learned About 2-Factor Authentication on GitHub</title>
+      <link>https://zkamvar.github.io/blog/2fa-with-github/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/blog/2fa-with-github/</guid>
+      <description>Since the end of 2018, I&amp;rsquo;ve been a part of a collaboration between RECON and MSF called the R4EPIs initiative where we are trying to integrate a more standardized workflow of R for field epidemiologists so that it can be more cost-effective (no license fees) and troubleshooting among epidemiologists can be more effective. We have a repository to host templates for automated situation reports at https://github.com/R4EPI/sitrep. When we created the GitHub organisation, we wanted to make sure that the code being submitted to the repository was genuinely authored by the person and didn&amp;rsquo;t contain malware from a hijacked account1, so we required 2-factor authentication for the R4EPI github organisation from the start.</description>
+    </item>
     
     <item>
       <title>Installing the ABySS</title>

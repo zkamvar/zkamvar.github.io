@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>2fa</title>
+      <link>https://zkamvar.github.io/tags/2fa/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/2fa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Abyss</title>
       <link>https://zkamvar.github.io/tags/abyss/</link>
       <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
@@ -104,7 +113,7 @@
     <item>
       <title>Command Line</title>
       <link>https://zkamvar.github.io/tags/command-line/</link>
-      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://zkamvar.github.io/tags/command-line/</guid>
       <description></description>
@@ -210,6 +219,15 @@
     </item>
     
     <item>
+      <title>Https</title>
+      <link>https://zkamvar.github.io/tags/https/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/https/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Library</title>
       <link>https://zkamvar.github.io/tags/library/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
@@ -305,6 +323,15 @@
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://zkamvar.github.io/tags/reproducibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://zkamvar.github.io/tags/ssh/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/ssh/</guid>
       <description></description>
     </item>
     
