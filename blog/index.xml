@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zkamvar.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>nice selection</title>
+      <link>https://zkamvar.github.io/blog/nice-selection/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/blog/nice-selection/</guid>
+      <description>I started writing in R before the tidyverse became a thing and I never really had to think about non-standard evaluation when writing functions. Those days are long past and I’ve recently struggled with the challenge when writing functions for the R4EPIs project, which would stick out like ugly little trolls along side tidyverse functions.
+One of my biggest struggles was trying to figure out how, excactly to select a varaible from a user as either a character string or a bare variable.</description>
+    </item>
     
     <item>
       <title>Things I Learned About 2-Factor Authentication on GitHub</title>
