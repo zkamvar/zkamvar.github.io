@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funding on Zhian N. Kamvar</title>
+    <link>https://zkamvar.github.io/tags/funding/</link>
+    <description>Recent content in Funding on Zhian N. Kamvar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zkamvar.github.io/tags/funding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Don&#39;t buy me a coffee</title>
+      <link>https://zkamvar.github.io/blog/don-t-buy-me-a-coffee/</link>
+      <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/blog/don-t-buy-me-a-coffee/</guid>
+      <description>tl;dr I don&amp;rsquo;t get paid to maintain poppr anymore and do so on my own time, so if you use it and value the work that I put into it, please donate to RAICES Texas (https://www.raicestexas.org/donate) to help provide legal services to underserved immigrant and refugee families in the United States.
+ 
+Last Tuesday, I released poppr version 2.8.3, which fixed a corner case in read.genalex() and enhanced minimum spanning network rendering by drawing single-population nodes as circles instead of pies (with contribution by Frédéric Chevalier).</description>
+    </item>
+    
+  </channel>
+</rss>
