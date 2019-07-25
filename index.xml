@@ -172,9 +172,7 @@ While I have the code used for the analysis on github, it’s a lot of stuff to 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zkamvar.github.io/pubs/</guid>
-      <description>Pre-Prints  These publications have not yet been peer-reviewed, but have been submitted.
- Kamvar ZN, Cai J, Pulliam JRC, Schumacher J, Jombart T. Epidemic curves made easy using the R package incidence [version 1; referees: awaiting peer review]. F1000Research 2019, 8:139. (doi: 10.12688/f1000research.18002.1).
- software: https://github.com/reconhub/aweek doi: 10.5281/zenodo.1404718  Peer-Reviewed Publications Moraga P, Dorigatti I, Kamvar ZN, Piatkowski P, Toikkanen SE, Nagraj V, Donnelly CA, and Jombart T epiflows: an R package for risk assessment of travel-related spread of disease [version 1; referees: 2 approved with reservations].</description>
+      <description>Peer-Reviewed Publications Polonsky JA, Baidjoe A, Kamvar, ZN Cori A, Durski K, Edmunds WJ, Eggo RM, Funk S, Kaiser L, Keating P, Polain de Waroux O, Marks M, Moraga P, Morgan O, Nouvellet P, Ratnayake R, Roberts CH, Whitworth J, &amp;amp; Jombart T (2019). Outbreak analytics: A developing data science for informing the response to emerging pathogens. Philosophical Transactions of the Royal Society B: Biological Sciences, 374(1776), 20180276. doi: 10.</description>
     </item>
     
   </channel>
