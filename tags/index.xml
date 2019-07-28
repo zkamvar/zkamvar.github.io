@@ -6,166 +6,13 @@
     <description>Recent content in Tags on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zkamvar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>.Libpaths</title>
-      <link>https://zkamvar.github.io/tags/.libpaths/</link>
-      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/.libpaths/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>.Renviron</title>
-      <link>https://zkamvar.github.io/tags/.renviron/</link>
-      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/.renviron/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>2fa</title>
-      <link>https://zkamvar.github.io/tags/2fa/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/2fa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Abyss</title>
-      <link>https://zkamvar.github.io/tags/abyss/</link>
-      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/abyss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithms</title>
-      <link>https://zkamvar.github.io/tags/algorithms/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/algorithms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Amova</title>
-      <link>https://zkamvar.github.io/tags/amova/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/amova/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://zkamvar.github.io/tags/blog/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bruvo</title>
-      <link>https://zkamvar.github.io/tags/bruvo/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/bruvo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bug</title>
-      <link>https://zkamvar.github.io/tags/bug/</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/bug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C</title>
-      <link>https://zkamvar.github.io/tags/c/</link>
-      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Clang</title>
-      <link>https://zkamvar.github.io/tags/clang/</link>
-      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/clang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Command Line</title>
-      <link>https://zkamvar.github.io/tags/command-line/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/command-line/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://zkamvar.github.io/tags/contact/</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Continuous Integration</title>
-      <link>https://zkamvar.github.io/tags/continuous-integration/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/continuous-integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cran</title>
-      <link>https://zkamvar.github.io/tags/cran/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/cran/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cranlogs</title>
-      <link>https://zkamvar.github.io/tags/cranlogs/</link>
-      <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/cranlogs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://zkamvar.github.io/tags/docker/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dontations</title>
+      <title>dontations</title>
       <link>https://zkamvar.github.io/tags/dontations/</link>
       <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -174,43 +21,7 @@
     </item>
     
     <item>
-      <title>Email</title>
-      <link>https://zkamvar.github.io/tags/email/</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Environment Variable</title>
-      <link>https://zkamvar.github.io/tags/environment-variable/</link>
-      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/environment-variable/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Forum</title>
-      <link>https://zkamvar.github.io/tags/forum/</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/forum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Functions</title>
-      <link>https://zkamvar.github.io/tags/functions/</link>
-      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/functions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Funding</title>
+      <title>funding</title>
       <link>https://zkamvar.github.io/tags/funding/</link>
       <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -219,97 +30,7 @@
     </item>
     
     <item>
-      <title>Ggplot2</title>
-      <link>https://zkamvar.github.io/tags/ggplot2/</link>
-      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/ggplot2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://zkamvar.github.io/tags/github/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hpc</title>
-      <link>https://zkamvar.github.io/tags/hpc/</link>
-      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/hpc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Https</title>
-      <link>https://zkamvar.github.io/tags/https/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/https/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Library</title>
-      <link>https://zkamvar.github.io/tags/library/</link>
-      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/library/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lldb</title>
-      <link>https://zkamvar.github.io/tags/lldb/</link>
-      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/lldb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Meta</title>
-      <link>https://zkamvar.github.io/tags/meta/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Misc</title>
-      <link>https://zkamvar.github.io/tags/misc/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/misc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multilocus Genotype</title>
-      <link>https://zkamvar.github.io/tags/multilocus-genotype/</link>
-      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/multilocus-genotype/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Science Framework</title>
-      <link>https://zkamvar.github.io/tags/open-science-framework/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/open-science-framework/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Scource</title>
+      <title>open scource</title>
       <link>https://zkamvar.github.io/tags/open-scource/</link>
       <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -318,47 +39,11 @@
     </item>
     
     <item>
-      <title>Polysat</title>
-      <link>https://zkamvar.github.io/tags/polysat/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/polysat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Poppr</title>
+      <title>poppr</title>
       <link>https://zkamvar.github.io/tags/poppr/</link>
       <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://zkamvar.github.io/tags/poppr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Preprint</title>
-      <link>https://zkamvar.github.io/tags/preprint/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/preprint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://zkamvar.github.io/tags/programming/</link>
-      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Purrr</title>
-      <link>https://zkamvar.github.io/tags/purrr/</link>
-      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/tags/purrr/</guid>
       <description></description>
     </item>
     
@@ -372,25 +57,34 @@
     </item>
     
     <item>
-      <title>Reproducibility</title>
-      <link>https://zkamvar.github.io/tags/reproducibility/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      <title>functions</title>
+      <link>https://zkamvar.github.io/tags/functions/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/reproducibility/</guid>
+      <guid>https://zkamvar.github.io/tags/functions/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ssh</title>
-      <link>https://zkamvar.github.io/tags/ssh/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      <title>programming</title>
+      <link>https://zkamvar.github.io/tags/programming/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zkamvar.github.io/tags/ssh/</guid>
+      <guid>https://zkamvar.github.io/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tidyselect</title>
+      <title>purrr</title>
+      <link>https://zkamvar.github.io/tags/purrr/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/purrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyselect</title>
       <link>https://zkamvar.github.io/tags/tidyselect/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -399,11 +93,317 @@
     </item>
     
     <item>
-      <title>Tidyverse</title>
+      <title>tidyverse</title>
       <link>https://zkamvar.github.io/tags/tidyverse/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://zkamvar.github.io/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2fa</title>
+      <link>https://zkamvar.github.io/tags/2fa/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/2fa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command-line</title>
+      <link>https://zkamvar.github.io/tags/command-line/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>https</title>
+      <link>https://zkamvar.github.io/tags/https/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/https/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://zkamvar.github.io/tags/ssh/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bug</title>
+      <link>https://zkamvar.github.io/tags/bug/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/bug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>https://zkamvar.github.io/tags/contact/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>email</title>
+      <link>https://zkamvar.github.io/tags/email/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forum</title>
+      <link>https://zkamvar.github.io/tags/forum/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/forum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://zkamvar.github.io/tags/blog/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meta</title>
+      <link>https://zkamvar.github.io/tags/meta/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>misc</title>
+      <link>https://zkamvar.github.io/tags/misc/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AMOVA</title>
+      <link>https://zkamvar.github.io/tags/amova/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/amova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRAN</title>
+      <link>https://zkamvar.github.io/tags/cran/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/cran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polysat</title>
+      <link>https://zkamvar.github.io/tags/polysat/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/polysat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>https://zkamvar.github.io/tags/c/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clang</title>
+      <link>https://zkamvar.github.io/tags/clang/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/clang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lldb</title>
+      <link>https://zkamvar.github.io/tags/lldb/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/lldb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.Renviron</title>
+      <link>https://zkamvar.github.io/tags/.renviron/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/.renviron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.libPaths()</title>
+      <link>https://zkamvar.github.io/tags/.libpaths/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/.libpaths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environment variable</title>
+      <link>https://zkamvar.github.io/tags/environment-variable/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/environment-variable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>library</title>
+      <link>https://zkamvar.github.io/tags/library/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ABySS</title>
+      <link>https://zkamvar.github.io/tags/abyss/</link>
+      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/abyss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HPC</title>
+      <link>https://zkamvar.github.io/tags/hpc/</link>
+      <pubDate>Thu, 05 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/hpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Integration</title>
+      <link>https://zkamvar.github.io/tags/continuous-integration/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://zkamvar.github.io/tags/github/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Science Framework</title>
+      <link>https://zkamvar.github.io/tags/open-science-framework/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/open-science-framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://zkamvar.github.io/tags/docker/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preprint</title>
+      <link>https://zkamvar.github.io/tags/preprint/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducibility</title>
+      <link>https://zkamvar.github.io/tags/reproducibility/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/reproducibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>algorithms</title>
+      <link>https://zkamvar.github.io/tags/algorithms/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bruvo</title>
+      <link>https://zkamvar.github.io/tags/bruvo/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/bruvo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cranlogs</title>
+      <link>https://zkamvar.github.io/tags/cranlogs/</link>
+      <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/cranlogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ggplot2</title>
+      <link>https://zkamvar.github.io/tags/ggplot2/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multilocus genotype</title>
+      <link>https://zkamvar.github.io/tags/multilocus-genotype/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/tags/multilocus-genotype/</guid>
       <description></description>
     </item>
     

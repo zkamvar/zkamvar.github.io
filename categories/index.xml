@@ -6,66 +6,13 @@
     <description>Recent content in Categories on Zhian N. Kamvar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zkamvar.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example</title>
-      <link>https://zkamvar.github.io/categories/example/</link>
-      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/categories/example/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://zkamvar.github.io/categories/git/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/categories/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://zkamvar.github.io/categories/github/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/categories/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Good Practice</title>
-      <link>https://zkamvar.github.io/categories/good-practice/</link>
-      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/categories/good-practice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grad School</title>
-      <link>https://zkamvar.github.io/categories/grad-school/</link>
-      <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/categories/grad-school/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Meta</title>
-      <link>https://zkamvar.github.io/categories/meta/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://zkamvar.github.io/categories/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
+      <title>r</title>
       <link>https://zkamvar.github.io/categories/r/</link>
       <pubDate>Sun, 23 Jun 2019 00:00:00 +0000</pubDate>
       
@@ -74,11 +21,65 @@
     </item>
     
     <item>
-      <title>Science</title>
+      <title>example</title>
+      <link>https://zkamvar.github.io/categories/example/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/categories/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://zkamvar.github.io/categories/git/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://zkamvar.github.io/categories/github/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/categories/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>good-practice</title>
+      <link>https://zkamvar.github.io/categories/good-practice/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/categories/good-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meta</title>
+      <link>https://zkamvar.github.io/categories/meta/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/categories/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>science</title>
       <link>https://zkamvar.github.io/categories/science/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://zkamvar.github.io/categories/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grad school</title>
+      <link>https://zkamvar.github.io/categories/grad-school/</link>
+      <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://zkamvar.github.io/categories/grad-school/</guid>
       <description></description>
     </item>
     
